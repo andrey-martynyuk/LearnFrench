@@ -7,5 +7,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Andrey Martynyuk",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "directory": "https://github.com/andrey-martynyuk/LearnFrench.git"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.1",
+    "bootstrap": "^4.4.1",
+    "bootswatch": "^4.4.1",
+    "jquery": "^3.4.1"
+  }
 }
