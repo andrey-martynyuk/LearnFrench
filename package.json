@@ -1,0 +1,11 @@
+{
+  "name": "learn-french",
+  "version": "1.0.0",
+  "description": "Simple web app that helps to learn French via interactive cards",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrey Martynyuk",
+  "license": "MIT"
+}
