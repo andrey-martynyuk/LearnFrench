@@ -137,3 +137,13 @@ section {
 .alphabet .table tr:not(:last-child) {
   white-space: nowrap;
 }
+
+.fa-chevron-circle-up::before {
+  content: "\02C4";
+  font-style: normal;
+}
+
+.fa-chevron-circle-down::before {
+  content: "\02C5";
+  font-style: normal;
+}
