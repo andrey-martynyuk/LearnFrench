@@ -1,19 +1,50 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Learn French!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  </head>
 
-<head>
-  <meta charset='utf-8'>
-  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <title>Learn French!</title>
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-  <script src='main.js'></script>
-</head>
+  <body class="">
+    <header>
+      <nav class="navbar navbar-expand navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><h3>Learn <span class="tricolorBlue">Fr</span><span class="tricolorWhite">en</span><span class="tricolorRed">ch</span>!</h3></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item d-none">
+              <a class="nav-link" page="home">Home</a>
+            </li>
+          </ul>
+          <div>
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="global-search" />
+          </div>
+          <div class="dropdown d-none">
+            <button class="btn btn-dark dropdown-toggle" type="button" id="languageDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">en</button>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item lang-selector" lang="en" href="#">English</a>
+              <a class="dropdown-item lang-selector" lang="ru" href="#">Русский</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-<body>
-  <header>
-    <h1>Learn French!</h1>
-  </header>
-</body>
+    <main class="container-fluid" role="main" id="main"></main>
 
+    <footer class="footer text-muted">
+      <div class="container text-center"></div>
+    </footer>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
 </html>
