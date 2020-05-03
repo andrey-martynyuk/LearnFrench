@@ -1,0 +1,117 @@
+.my-tricolor-blue {
+  color: 	#0055A4;
+}
+
+.my-tricolor-white {
+  color: 	#FFFFFF;
+}
+
+.my-tricolor-red {
+  color: 	#EF4135;
+}
+
+.navbar-nav .nav-link {
+  cursor: pointer;
+}
+
+.navbar-nav .active .nav-link {
+  cursor: default;
+}
+
+#global-language {
+  text-transform: capitalize;
+}
+
+section {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.table {
+  margin: 0;
+}
+
+.alphabet .table td:not(:first-child) {
+  text-align: center;
+}
+
+.alphabet .table tr:not(:last-child) {
+  white-space: nowrap;
+}
+
+.fa-chevron-circle-up::before {
+  content: "\25B4";
+  font-style: normal;
+}
+
+.fa-chevron-circle-down::before {
+  content: "\25BE";
+  font-style: normal;
+}
+
+.my-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-bottom: -15px;
+}
+
+.my-grid .my-grid-item {
+  flex-basis: 100%;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+@media(min-width: 400px) {
+  .my-grid .my-grid-item {
+    flex-basis: 50%;
+  }
+}
+
+@media(min-width: 500px) {
+  .my-grid .my-grid-item {
+    flex-basis: 33.333%;
+  }
+}
+
+@media(min-width: 800px) {
+  .my-grid .my-grid-item {
+    flex-basis: 25%;
+  }
+}
+
+@media(min-width: 1000px) {
+  .my-grid .my-grid-item {
+    flex-basis: 20%;
+  }
+}
+
+@media(min-width: 1300px) {
+  .my-grid .my-grid-item {
+    flex-basis: 16.667%;
+  }
+}
+
+@media(min-width: 1600px) {
+  .my-grid .my-grid-item {
+    flex-basis: 12.5%;
+  }
+}
+
+.my-word-card .card-body {
+  padding: 0;
+}
+
+.my-word-card th {
+  text-align: center;
+}
+
+.my-term {
+  font-weight: 500;
+}
+
+.my-hint {
+  font-size: 80%;
+  font-style: italic;
+  font-weight: 400;
+}

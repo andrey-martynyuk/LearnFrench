@@ -7,31 +7,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" type="text/css" media="screen" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
   </head>
 
   <body class="">
     <header>
       <nav class="navbar navbar-expand navbar-dark bg-dark">
-        <a class="navbar-brand" href="#"><h3>Learn <span class="tricolorBlue">Fr</span><span class="tricolorWhite">en</span><span class="tricolorRed">ch</span>!</h3></a>
+        <a class="navbar-brand" href="#"><h3>Learn <span class="my-tricolor-blue">Fr</span><span class="my-tricolor-white">en</span><span class="my-tricolor-red">ch</span>!</h3></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item d-none">
-              <a class="nav-link" page="home">Home</a>
+            <li class="nav-item">
+              <a class="nav-link" page="orthography">Orthography</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" page="adjectives">Adjectives</a>
             </li>
           </ul>
+          <div class="dropdown">
+            <button class="btn btn-dark dropdown-toggle" type="button" id="global-language" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">en</button>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item my-lang-selector" lang="en" href="#">English</a>
+              <a class="dropdown-item my-lang-selector" lang="ru" href="#">Русский</a>
+            </div>
+          </div>
           <div>
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="global-search" />
-          </div>
-          <div class="dropdown d-none">
-            <button class="btn btn-dark dropdown-toggle" type="button" id="languageDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">en</button>
-            <div class="dropdown-menu dropdown-menu-right">
-              <a class="dropdown-item lang-selector" lang="en" href="#">English</a>
-              <a class="dropdown-item lang-selector" lang="ru" href="#">Русский</a>
-            </div>
           </div>
         </div>
       </nav>
@@ -45,6 +48,6 @@
 
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="main.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
