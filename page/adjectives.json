@@ -9,7 +9,7 @@
       "words": [
         {
           "fr": {
-            "m sl": "nouveau",
+            "m sl": "nouveau/nouvel",
             "m pl": "nouveaux",
             "f sl": "nouvelle",
             "f pl": "nouvelles"
@@ -69,7 +69,7 @@
         },
         {
           "fr": {
-            "m sl": "vieux",
+            "m sl": "vieux/vieil",
             "m pl": "vieux",
             "f sl": "vieille",
             "f pl": "vieilles"
@@ -326,6 +326,27 @@
             "ж ед": "коричневая",
             "ж мн": "коричневые"
           }
+        },
+        {
+          "color": "#FF8000",
+          "fr": {
+            "m sl": "roux",
+            "m pl": "roux",
+            "f sl": "rousse",
+            "f pl": "rousses"
+          },
+          "en": {
+            "m sl": "red, ginger",
+            "m pl": "red, ginger",
+            "f sl": "red, ginger",
+            "f pl": "red, ginger"
+          },
+          "ru": {
+            "м ед": "рыжий",
+            "м мн": "рыжие",
+            "ж ед": "рыжая",
+            "ж мн": "рыжие"
+          }
         }
       ]
     },
@@ -527,7 +548,7 @@
         },
         {
           "fr": {
-            "m sl": "beau",
+            "m sl": "beau/bel",
             "m pl": "beaux",
             "f sl": "belle",
             "f pl": "belles"
@@ -683,6 +704,66 @@
             "м мн": "свободные",
             "ж ед": "свободная",
             "ж мн": "свободные"
+          }
+        },
+        {
+          "fr": {
+            "m sl": "facile",
+            "m pl": "faciles",
+            "f sl": "facile",
+            "f pl": "faciles"
+          },
+          "en": {
+            "m sl": "easy",
+            "m pl": "easy",
+            "f sl": "easy",
+            "f pl": "easy"
+          },
+          "ru": {
+            "м ед": "легкий",
+            "м мн": "легкие",
+            "ж ед": "легкая",
+            "ж мн": "легкие"
+          }
+        },
+        {
+          "fr": {
+            "m sl": "difficile",
+            "m pl": "difficiles",
+            "f sl": "difficile",
+            "f pl": "difficiles"
+          },
+          "en": {
+            "m sl": "difficult",
+            "m pl": "difficult",
+            "f sl": "difficult",
+            "f pl": "difficult"
+          },
+          "ru": {
+            "м ед": "трудный",
+            "м мн": "трудные",
+            "ж ед": "трудная",
+            "ж мн": "трудные"
+          }
+        },
+        {
+          "fr": {
+            "m sl": "intelligent",
+            "m pl": "intelligents",
+            "f sl": "intelligente",
+            "f pl": "intelligentes"
+          },
+          "en": {
+            "m sl": "intelligent",
+            "m pl": "intelligent",
+            "f sl": "intelligent",
+            "f pl": "intelligent"
+          },
+          "ru": {
+            "м ед": "умный",
+            "м мн": "умные",
+            "ж ед": "умная",
+            "ж мн": "умные"
           }
         }
       ]
@@ -873,6 +954,46 @@
             "ж ед": "влажная, мокрая",
             "ж мн": "влажные, мокрые"
           }
+        },
+        {
+          "fr": {
+            "m sl": "dur",
+            "m pl": "durs",
+            "f sl": "dure",
+            "f pl": "dures"
+          },
+          "en": {
+            "m sl": "hard, tough",
+            "m pl": "hard, tough",
+            "f sl": "hard, tough",
+            "f pl": "hard, tough"
+          },
+          "ru": {
+            "м ед": "жесткий",
+            "м мн": "жесткие",
+            "ж ед": "жесткая",
+            "ж мн": "жесткие"
+          }
+        },
+        {
+          "fr": {
+            "m sl": "doux",
+            "m pl": "douce",
+            "f sl": "doux",
+            "f pl": "douces"
+          },
+          "en": {
+            "m sl": "soft",
+            "m pl": "soft",
+            "f sl": "soft",
+            "f pl": "soft"
+          },
+          "ru": {
+            "м ед": "мягкий",
+            "м мн": "мягкие",
+            "ж ед": "мягкая",
+            "ж мн": "мягкие"
+          }
         }
       ]
     },
@@ -946,10 +1067,10 @@
             "f pl": "good, proper, correct"
           },
           "ru": {
-            "м ед": "хороший, правильный",
-            "м мн": "хорошие, правильные",
-            "ж ед": "хорошая, правильная",
-            "ж мн": "хорошие, правильные"
+            "м ед": "хороший",
+            "м мн": "хорошие",
+            "ж ед": "хорошая",
+            "ж мн": "хорошие"
           }
         },
         {
@@ -960,10 +1081,10 @@
             "f pl": "mauvaises"
           },
           "en": {
-            "m sl": "bad",
-            "m pl": "bad",
-            "f sl": "bad",
-            "f pl": "bad"
+            "m sl": "bad, wrong",
+            "m pl": "bad, wrong",
+            "f sl": "bad, wrong",
+            "f pl": "bad, wrong"
           },
           "ru": {
             "м ед": "плохой",
@@ -1006,10 +1127,10 @@
             "f pl": "worse"
           },
           "ru": {
-            "м ед": "хуже",
-            "м мн": "хуже",
-            "ж ед": "хуже",
-            "ж мн": "хуже"
+            "м ед": "худший",
+            "м мн": "худшие",
+            "ж ед": "худшая",
+            "ж мн": "худшие"
           }
         },
         {
@@ -1099,6 +1220,26 @@
             "м мн": "следующие, грядущие",
             "ж ед": "следующая, грядущая",
             "ж мн": "следующие, грядущие"
+          }
+        },
+        {
+          "fr": {
+            "m sl": "autre",
+            "m pl": "autres",
+            "f sl": "autre",
+            "f pl": "autres"
+          },
+          "en": {
+            "m sl": "other",
+            "m pl": "other",
+            "f sl": "other",
+            "f pl": "other"
+          },
+          "ru": {
+            "м ед": "другой",
+            "м мн": "другие",
+            "ж ед": "другая",
+            "ж мн": "другие"
           }
         }
       ]
