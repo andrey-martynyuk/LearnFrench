@@ -22,7 +22,11 @@ function loadData(lang)
       let cat = catTemplate.clone(true);
       cat.find('a.my-cat-index').attr('href', '#cat' + index);
       cat.find('div.my-cat-index').attr('id', 'cat' + index);
-      cat.find('#category-name').text(category.name[lang]);
+      
+      let name = cat.find('#category-name');
+      name.text(category.name.fr);
+      name.attr('title', category.name[lang]);
+      name.tooltip();
 
       const cardContainer = cat.find('#card-container');
       const cardTemplate = cat.find('#card-template');
