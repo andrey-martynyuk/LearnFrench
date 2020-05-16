@@ -8,84 +8,96 @@
       },
       "words": [
         {
-          "fr": {
-            "m sl": "nouveau/nouvel",
-            "m pl": "nouveaux",
-            "f sl": "nouvelle",
-            "f pl": "nouvelles"
+          "word": {
+            "fr": {
+              "m sl": "nouveau/nouvel",
+              "m pl": "nouveaux",
+              "f sl": "nouvelle",
+              "f pl": "nouvelles"
+            },
+            "en": {
+              "m sl": "new",
+              "m pl": "new",
+              "f sl": "new",
+              "f pl": "new"
+            },
+            "ru": {
+              "м ед": "новый",
+              "м мн": "новые",
+              "ж ед": "новая",
+              "ж мн": "новые"
+            }
           },
-          "en": {
-            "m sl": "new",
-            "m pl": "new",
-            "f sl": "new",
-            "f pl": "new"
-          },
-          "ru": {
-            "м ед": "новый",
-            "м мн": "новые",
-            "ж ед": "новая",
-            "ж мн": "новые"
-          }
+          "examples": []
         },
         {
-          "fr": {
-            "m sl": "ancien",
-            "m pl": "anciens",
-            "f sl": "ancienne",
-            "f pl": "anciennes"
+          "word": {
+            "fr": {
+              "m sl": "ancien",
+              "m pl": "anciens",
+              "f sl": "ancienne",
+              "f pl": "anciennes"
+            },
+            "en": {
+              "m sl": "former, old",
+              "m pl": "former, old",
+              "f sl": "former, old",
+              "f pl": "former, old"
+            },
+            "ru": {
+              "м ед": "бывший, прежний, старый",
+              "м мн": "бывшие, прежние, старые",
+              "ж ед": "бывшая, прежняя, старая",
+              "ж мн": "бывшие, прежние, старые"
+            }
           },
-          "en": {
-            "m sl": "former, old",
-            "m pl": "former, old",
-            "f sl": "former, old",
-            "f pl": "former, old"
-          },
-          "ru": {
-            "м ед": "бывший, прежний, старый",
-            "м мн": "бывшие, прежние, старые",
-            "ж ед": "бывшая, прежняя, старая",
-            "ж мн": "бывшие, прежние, старые"
-          }
+          "examples": []
         },
         {
-          "fr": {
-            "m sl": "jeune",
-            "m pl": "jeunes",
-            "f sl": "jeune",
-            "f pl": "jeunes"
+          "word": {
+            "fr": {
+              "m sl": "jeune",
+              "m pl": "jeunes",
+              "f sl": "jeune",
+              "f pl": "jeunes"
+            },
+            "en": {
+              "m sl": "young",
+              "m pl": "young",
+              "f sl": "young",
+              "f pl": "young"
+            },
+            "ru": {
+              "м ед": "молодой",
+              "м мн": "молодые",
+              "ж ед": "молодая",
+              "ж мн": "молодые"
+            }
           },
-          "en": {
-            "m sl": "young",
-            "m pl": "young",
-            "f sl": "young",
-            "f pl": "young"
-          },
-          "ru": {
-            "м ед": "молодой",
-            "м мн": "молодые",
-            "ж ед": "молодая",
-            "ж мн": "молодые"
-          }
+          "examples": []
         },
         {
-          "fr": {
-            "m sl": "vieux/vieil",
-            "m pl": "vieux",
-            "f sl": "vieille",
-            "f pl": "vieilles"
+          "word": {
+            "fr": {
+              "m sl": "vieux/vieil",
+              "m pl": "vieux",
+              "f sl": "vieille",
+              "f pl": "vieilles"
+            },
+            "en": {
+              "m sl": "old",
+              "m pl": "old",
+              "f sl": "old",
+              "f pl": "old"
+            },
+            "ru": {
+              "м ед": "старый",
+              "м мн": "старые",
+              "ж ед": "старая",
+              "ж мн": "старые"
+            }
           },
-          "en": {
-            "m sl": "old",
-            "m pl": "old",
-            "f sl": "old",
-            "f pl": "old"
-          },
-          "ru": {
-            "м ед": "старый",
-            "м мн": "старые",
-            "ж ед": "старая",
-            "ж мн": "старые"
-          }
+          "examples": []
         }
       ]
     },
@@ -98,255 +110,291 @@
       "words": [
         {
           "color": "green",
-          "fr": {
-            "m sl": "vert",
-            "m pl": "verts",
-            "f sl": "verte",
-            "f pl": "vertes"
+          "word": {
+            "fr": {
+              "m sl": "vert",
+              "m pl": "verts",
+              "f sl": "verte",
+              "f pl": "vertes"
+            },
+            "en": {
+              "m sl": "green",
+              "m pl": "green",
+              "f sl": "green",
+              "f pl": "green"
+            },
+            "ru": {
+              "м ед": "зелёный",
+              "м мн": "зелёные",
+              "ж ед": "зелёная",
+              "ж мн": "зелёные"
+            }
           },
-          "en": {
-            "m sl": "green",
-            "m pl": "green",
-            "f sl": "green",
-            "f pl": "green"
-          },
-          "ru": {
-            "м ед": "зелёный",
-            "м мн": "зелёные",
-            "ж ед": "зелёная",
-            "ж мн": "зелёные"
-          }
+          "examples": []
         },
         {
           "color": "yellow",
-          "fr": {
-            "m sl": "jaune",
-            "m pl": "jaunes",
-            "f sl": "jaune",
-            "f pl": "jaunes"
+          "word": {
+            "fr": {
+              "m sl": "jaune",
+              "m pl": "jaunes",
+              "f sl": "jaune",
+              "f pl": "jaunes"
+            },
+            "en": {
+              "m sl": "yellow",
+              "m pl": "yellow",
+              "f sl": "yellow",
+              "f pl": "yellow"
+            },
+            "ru": {
+              "м ед": "жёлтый",
+              "м мн": "жёлтые",
+              "ж ед": "жёлтая",
+              "ж мн": "жёлтые"
+            }
           },
-          "en": {
-            "m sl": "yellow",
-            "m pl": "yellow",
-            "f sl": "yellow",
-            "f pl": "yellow"
-          },
-          "ru": {
-            "м ед": "жёлтый",
-            "м мн": "жёлтые",
-            "ж ед": "жёлтая",
-            "ж мн": "жёлтые"
-          }
+          "examples": []
         },
         {
           "color": "#0055A4",
-          "fr": {
-            "m sl": "bleu",
-            "m pl": "bleus",
-            "f sl": "bleue",
-            "f pl": "bleues"
+          "word": {
+            "fr": {
+              "m sl": "bleu",
+              "m pl": "bleus",
+              "f sl": "bleue",
+              "f pl": "bleues"
+            },
+            "en": {
+              "m sl": "blue",
+              "m pl": "blue",
+              "f sl": "blue",
+              "f pl": "blue"
+            },
+            "ru": {
+              "м ед": "синий",
+              "м мн": "синие",
+              "ж ед": "синяя",
+              "ж мн": "синие"
+            }
           },
-          "en": {
-            "m sl": "blue",
-            "m pl": "blue",
-            "f sl": "blue",
-            "f pl": "blue"
-          },
-          "ru": {
-            "м ед": "синий",
-            "м мн": "синие",
-            "ж ед": "синяя",
-            "ж мн": "синие"
-          }
+          "examples": []
         },
         {
           "color": "white",
-          "fr": {
-            "m sl": "blanc",
-            "m pl": "blancs",
-            "f sl": "blanche",
-            "f pl": "blanches"
+          "word": {
+            "fr": {
+              "m sl": "blanc",
+              "m pl": "blancs",
+              "f sl": "blanche",
+              "f pl": "blanches"
+            },
+            "en": {
+              "m sl": "white",
+              "m pl": "white",
+              "f sl": "white",
+              "f pl": "white"
+            },
+            "ru": {
+              "м ед": "белый",
+              "м мн": "белые",
+              "ж ед": "белая",
+              "ж мн": "белые"
+            }
           },
-          "en": {
-            "m sl": "white",
-            "m pl": "white",
-            "f sl": "white",
-            "f pl": "white"
-          },
-          "ru": {
-            "м ед": "белый",
-            "м мн": "белые",
-            "ж ед": "белая",
-            "ж мн": "белые"
-          }
+          "examples": []
         },
         {
           "color": "#EF4135",
-          "fr": {
-            "m sl": "rouge",
-            "m pl": "rouges",
-            "f sl": "rouge",
-            "f pl": "rouges"
+          "word": {
+            "fr": {
+              "m sl": "rouge",
+              "m pl": "rouges",
+              "f sl": "rouge",
+              "f pl": "rouges"
+            },
+            "en": {
+              "m sl": "red",
+              "m pl": "red",
+              "f sl": "red",
+              "f pl": "red"
+            },
+            "ru": {
+              "м ед": "красный",
+              "м мн": "красные",
+              "ж ед": "красная",
+              "ж мн": "красные"
+            }
           },
-          "en": {
-            "m sl": "red",
-            "m pl": "red",
-            "f sl": "red",
-            "f pl": "red"
-          },
-          "ru": {
-            "м ед": "красный",
-            "м мн": "красные",
-            "ж ед": "красная",
-            "ж мн": "красные"
-          }
+          "examples": []
         },
         {
           "color": "gray",
-          "fr": {
-            "m sl": "gris",
-            "m pl": "gris",
-            "f sl": "grise",
-            "f pl": "grises"
+          "word": {
+            "fr": {
+              "m sl": "gris",
+              "m pl": "gris",
+              "f sl": "grise",
+              "f pl": "grises"
+            },
+            "en": {
+              "m sl": "grey",
+              "m pl": "grey",
+              "f sl": "grey",
+              "f pl": "grey"
+            },
+            "ru": {
+              "м ед": "серый",
+              "м мн": "серые",
+              "ж ед": "серая",
+              "ж мн": "серые"
+            }
           },
-          "en": {
-            "m sl": "grey",
-            "m pl": "grey",
-            "f sl": "grey",
-            "f pl": "grey"
-          },
-          "ru": {
-            "м ед": "серый",
-            "м мн": "серые",
-            "ж ед": "серая",
-            "ж мн": "серые"
-          }
+          "examples": []
         },
         {
           "color": "black",
-          "fr": {
-            "m sl": "noir",
-            "m pl": "noirs",
-            "f sl": "noire",
-            "f pl": "noires"
+          "word": {
+            "fr": {
+              "m sl": "noir",
+              "m pl": "noirs",
+              "f sl": "noire",
+              "f pl": "noires"
+            },
+            "en": {
+              "m sl": "black",
+              "m pl": "black",
+              "f sl": "black",
+              "f pl": "black"
+            },
+            "ru": {
+              "м ед": "черный",
+              "м мн": "черные",
+              "ж ед": "черная",
+              "ж мн": "черные"
+            }
           },
-          "en": {
-            "m sl": "black",
-            "m pl": "black",
-            "f sl": "black",
-            "f pl": "black"
-          },
-          "ru": {
-            "м ед": "черный",
-            "м мн": "черные",
-            "ж ед": "черная",
-            "ж мн": "черные"
-          }
+          "examples": []
         },
         {
           "color": "orange",
-          "fr": {
-            "m sl": "orange",
-            "m pl": "oranges",
-            "f sl": "orange",
-            "f pl": "oranges"
+          "word": {
+            "fr": {
+              "m sl": "orange",
+              "m pl": "oranges",
+              "f sl": "orange",
+              "f pl": "oranges"
+            },
+            "en": {
+              "m sl": "orange",
+              "m pl": "orange",
+              "f sl": "orange",
+              "f pl": "orange"
+            },
+            "ru": {
+              "м ед": "оранжевый",
+              "м мн": "оранжевые",
+              "ж ед": "оранжевая",
+              "ж мн": "оранжевые"
+            }
           },
-          "en": {
-            "m sl": "orange",
-            "m pl": "orange",
-            "f sl": "orange",
-            "f pl": "orange"
-          },
-          "ru": {
-            "м ед": "оранжевый",
-            "м мн": "оранжевые",
-            "ж ед": "оранжевая",
-            "ж мн": "оранжевые"
-          }
+          "examples": []
         },
         {
           "color": "pink",
-          "fr": {
-            "m sl": "rose",
-            "m pl": "roses",
-            "f sl": "rose",
-            "f pl": "roses"
+          "word": {
+            "fr": {
+              "m sl": "rose",
+              "m pl": "roses",
+              "f sl": "rose",
+              "f pl": "roses"
+            },
+            "en": {
+              "m sl": "pink",
+              "m pl": "pink",
+              "f sl": "pink",
+              "f pl": "pink"
+            },
+            "ru": {
+              "м ед": "розовый",
+              "м мн": "розовые",
+              "ж ед": "розовая",
+              "ж мн": "розовые"
+            }
           },
-          "en": {
-            "m sl": "pink",
-            "m pl": "pink",
-            "f sl": "pink",
-            "f pl": "pink"
-          },
-          "ru": {
-            "м ед": "розовый",
-            "м мн": "розовые",
-            "ж ед": "розовая",
-            "ж мн": "розовые"
-          }
+          "examples": []
         },
         {
           "color": "indigo",
-          "fr": {
-            "m sl": "violet",
-            "m pl": "violets",
-            "f sl": "violette",
-            "f pl": "violettes"
+          "word": {
+            "fr": {
+              "m sl": "violet",
+              "m pl": "violets",
+              "f sl": "violette",
+              "f pl": "violettes"
+            },
+            "en": {
+              "m sl": "violet",
+              "m pl": "violet",
+              "f sl": "violet",
+              "f pl": "violet"
+            },
+            "ru": {
+              "м ед": "фиолетовый",
+              "м мн": "фиолетовые",
+              "ж ед": "фиолетовая",
+              "ж мн": "фиолетовые"
+            }
           },
-          "en": {
-            "m sl": "violet",
-            "m pl": "violet",
-            "f sl": "violet",
-            "f pl": "violet"
-          },
-          "ru": {
-            "м ед": "фиолетовый",
-            "м мн": "фиолетовые",
-            "ж ед": "фиолетовая",
-            "ж мн": "фиолетовые"
-          }
+          "examples": []
         },
         {
           "color": "saddlebrown",
-          "fr": {
-            "m sl": "marron",
-            "m pl": "marrons",
-            "f sl": "marron",
-            "f pl": "marrons"
+          "word": {
+            "fr": {
+              "m sl": "marron",
+              "m pl": "marrons",
+              "f sl": "marron",
+              "f pl": "marrons"
+            },
+            "en": {
+              "m sl": "brown",
+              "m pl": "brown",
+              "f sl": "brown",
+              "f pl": "brown"
+            },
+            "ru": {
+              "м ед": "коричневый",
+              "м мн": "коричневые",
+              "ж ед": "коричневая",
+              "ж мн": "коричневые"
+            }
           },
-          "en": {
-            "m sl": "brown",
-            "m pl": "brown",
-            "f sl": "brown",
-            "f pl": "brown"
-          },
-          "ru": {
-            "м ед": "коричневый",
-            "м мн": "коричневые",
-            "ж ед": "коричневая",
-            "ж мн": "коричневые"
-          }
+          "examples": []
         },
         {
           "color": "#FF8000",
-          "fr": {
-            "m sl": "roux",
-            "m pl": "roux",
-            "f sl": "rousse",
-            "f pl": "rousses"
+          "word": {
+            "fr": {
+              "m sl": "roux",
+              "m pl": "roux",
+              "f sl": "rousse",
+              "f pl": "rousses"
+            },
+            "en": {
+              "m sl": "red, ginger",
+              "m pl": "red, ginger",
+              "f sl": "red, ginger",
+              "f pl": "red, ginger"
+            },
+            "ru": {
+              "м ед": "рыжий",
+              "м мн": "рыжие",
+              "ж ед": "рыжая",
+              "ж мн": "рыжие"
+            }
           },
-          "en": {
-            "m sl": "red, ginger",
-            "m pl": "red, ginger",
-            "f sl": "red, ginger",
-            "f pl": "red, ginger"
-          },
-          "ru": {
-            "м ед": "рыжий",
-            "м мн": "рыжие",
-            "ж ед": "рыжая",
-            "ж мн": "рыжие"
-          }
+          "examples": []
         }
       ]
     },
@@ -358,144 +406,165 @@
       },
       "words": [
         {
-          "fr": {
-            "m sl": "petit",
-            "m pl": "petits",
-            "f sl": "petite",
-            "f pl": "petites"
+          "word": {
+            "fr": {
+              "m sl": "petit",
+              "m pl": "petits",
+              "f sl": "petite",
+              "f pl": "petites"
+            },
+            "en": {
+              "m sl": "small, little, short",
+              "m pl": "small, little, short",
+              "f sl": "small, little, short",
+              "f pl": "small, little, short"
+            },
+            "ru": {
+              "м ед": "маленький",
+              "м мн": "маленькие",
+              "ж ед": "маленькая",
+              "ж мн": "маленькие"
+            }
           },
-          "en": {
-            "m sl": "small, little, short",
-            "m pl": "small, little, short",
-            "f sl": "small, little, short",
-            "f pl": "small, little, short"
-          },
-          "ru": {
-            "м ед": "маленький",
-            "м мн": "маленькие",
-            "ж ед": "маленькая",
-            "ж мн": "маленькие"
-          }
+          "examples": []
         },
         {
-          "fr": {
-            "m sl": "grand",
-            "m pl": "grands",
-            "f sl": "grande",
-            "f pl": "grandes"
+          "word": {
+            "fr": {
+              "m sl": "grand",
+              "m pl": "grands",
+              "f sl": "grande",
+              "f pl": "grandes"
+            },
+            "en": {
+              "m sl": "large, great, grand, tall",
+              "m pl": "large, great, grand, tall",
+              "f sl": "large, great, grand, tall",
+              "f pl": "large, great, grand, tall"
+            },
+            "ru": {
+              "м ед": "большой",
+              "м мн": "большие",
+              "ж ед": "большая",
+              "ж мн": "большие"
+            }
           },
-          "en": {
-            "m sl": "large, great, grand, tall",
-            "m pl": "large, great, grand, tall",
-            "f sl": "large, great, grand, tall",
-            "f pl": "large, great, grand, tall"
-          },
-          "ru": {
-            "м ед": "большой",
-            "м мн": "большие",
-            "ж ед": "большая",
-            "ж мн": "большие"
-          }
+          "examples": []
         },
         {
-          "fr": {
-            "m sl": "gros",
-            "m pl": "gros",
-            "f sl": "grosse",
-            "f pl": "grosses"
+          "word": {
+            "fr": {
+              "m sl": "gros",
+              "m pl": "gros",
+              "f sl": "grosse",
+              "f pl": "grosses"
+            },
+            "en": {
+              "m sl": "large, bulk, fat",
+              "m pl": "large, bulk, fat",
+              "f sl": "large, bulk, fat",
+              "f pl": "large, bulk, fat"
+            },
+            "ru": {
+              "м ед": "большой, толстый",
+              "м мн": "большие, толстые",
+              "ж ед": "большая, толстая",
+              "ж мн": "большие, толстые"
+            }
           },
-          "en": {
-            "m sl": "large, bulk, fat",
-            "m pl": "large, bulk, fat",
-            "f sl": "large, bulk, fat",
-            "f pl": "large, bulk, fat"
-          },
-          "ru": {
-            "м ед": "большой, толстый",
-            "м мн": "большие, толстые",
-            "ж ед": "большая, толстая",
-            "ж мн": "большие, толстые"
-          }
+          "examples": []
         },
         {
-          "fr": {
-            "m sl": "bref",
-            "m pl": "brefs",
-            "f sl": "brève",
-            "f pl": "brèves"
+          "word": {
+            "fr": {
+              "m sl": "bref",
+              "m pl": "brefs",
+              "f sl": "brève",
+              "f pl": "brèves"
+            },
+            "en": {
+              "m sl": "short, brief",
+              "m pl": "short, brief",
+              "f sl": "short, brief",
+              "f pl": "short, brief"
+            },
+            "ru": {
+              "м ед": "короткий, краткий",
+              "м мн": "короткие, краткие",
+              "ж ед": "короткая, краткая",
+              "ж мн": "короткие, краткие"
+            }
           },
-          "en": {
-            "m sl": "short, brief",
-            "m pl": "short, brief",
-            "f sl": "short, brief",
-            "f pl": "short, brief"
-          },
-          "ru": {
-            "м ед": "короткий, краткий",
-            "м мн": "короткие, краткие",
-            "ж ед": "короткая, краткая",
-            "ж мн": "короткие, краткие"
-          }
+          "examples": []
         },
         {
-          "fr": {
-            "m sl": "long",
-            "m pl": "longs",
-            "f sl": "longue",
-            "f pl": "longues"
+          "word": {
+            "fr": {
+              "m sl": "long",
+              "m pl": "longs",
+              "f sl": "longue",
+              "f pl": "longues"
+            },
+            "en": {
+              "m sl": "long, prolonged",
+              "m pl": "long, prolonged",
+              "f sl": "long, prolonged",
+              "f pl": "long, prolonged"
+            },
+            "ru": {
+              "м ед": "длинный, длительный",
+              "м мн": "длинные, длительные",
+              "ж ед": "длинная, длительная",
+              "ж мн": "длинные, длительные"
+            }
           },
-          "en": {
-            "m sl": "long, prolonged",
-            "m pl": "long, prolonged",
-            "f sl": "long, prolonged",
-            "f pl": "long, prolonged"
-          },
-          "ru": {
-            "м ед": "длинный, длительный",
-            "м мн": "длинные, длительные",
-            "ж ед": "длинная, длительная",
-            "ж мн": "длинные, длительные"
-          }
+          "examples": []
         },
         {
-          "fr": {
-            "m sl": "bas",
-            "m pl": "bas",
-            "f sl": "basse",
-            "f pl": "basses"
+          "word": {
+            "fr": {
+              "m sl": "bas",
+              "m pl": "bas",
+              "f sl": "basse",
+              "f pl": "basses"
+            },
+            "en": {
+              "m sl": "low",
+              "m pl": "low",
+              "f sl": "low",
+              "f pl": "low"
+            },
+            "ru": {
+              "м ед": "низкий",
+              "м мн": "низкие",
+              "ж ед": "низкая",
+              "ж мн": "низкие"
+            }
           },
-          "en": {
-            "m sl": "low",
-            "m pl": "low",
-            "f sl": "low",
-            "f pl": "low"
-          },
-          "ru": {
-            "м ед": "низкий",
-            "м мн": "низкие",
-            "ж ед": "низкая",
-            "ж мн": "низкие"
-          }
+          "examples": []
         },
         {
-          "fr": {
-            "m sl": "haut",
-            "m pl": "hauts",
-            "f sl": "haute",
-            "f pl": "hautes"
+          "word": {
+            "fr": {
+              "m sl": "haut",
+              "m pl": "hauts",
+              "f sl": "haute",
+              "f pl": "hautes"
+            },
+            "en": {
+              "m sl": "high, tall",
+              "m pl": "high, tall",
+              "f sl": "high, tall",
+              "f pl": "high, tall"
+            },
+            "ru": {
+              "м ед": "высокий",
+              "м мн": "высокие",
+              "ж ед": "высокая",
+              "ж мн": "высокие"
+            }
           },
-          "en": {
-            "m sl": "high, tall",
-            "m pl": "high, tall",
-            "f sl": "high, tall",
-            "f pl": "high, tall"
-          },
-          "ru": {
-            "м ед": "высокий",
-            "м мн": "высокие",
-            "ж ед": "высокая",
-            "ж мн": "высокие"
-          }
+          "examples": []
         }
       ]
     },
@@ -507,264 +576,303 @@
       },
       "words": [
         {
-          "fr": {
-            "m sl": "gentil",
-            "m pl": "gentils",
-            "f sl": "gentille",
-            "f pl": "gentilles"
+          "word": {
+            "fr": {
+              "m sl": "gentil",
+              "m pl": "gentils",
+              "f sl": "gentille",
+              "f pl": "gentilles"
+            },
+            "en": {
+              "m sl": "nice, friendly",
+              "m pl": "nice, friendly",
+              "f sl": "nice, friendly",
+              "f pl": "nice, friendly"
+            },
+            "ru": {
+              "м ед": "милый, дружелюбный",
+              "м мн": "милые, дружелюбные",
+              "ж ед": "милая, дружелюбная",
+              "ж мн": "милые, дружелюбные"
+            }
           },
-          "en": {
-            "m sl": "nice, friendly",
-            "m pl": "nice, friendly",
-            "f sl": "nice, friendly",
-            "f pl": "nice, friendly"
-          },
-          "ru": {
-            "м ед": "милый, дружелюбный",
-            "м мн": "милые, дружелюбные",
-            "ж ед": "милая, дружелюбная",
-            "ж мн": "милые, дружелюбные"
-          }
+          "examples": []
         },
         {
-          "fr": {
-            "m sl": "méchant",
-            "m pl": "méchants",
-            "f sl": "méchante",
-            "f pl": "méchantes"
+          "word": {
+            "fr": {
+              "m sl": "méchant",
+              "m pl": "méchants",
+              "f sl": "méchante",
+              "f pl": "méchantes"
+            },
+            "en": {
+              "m sl": "nasty, cruel",
+              "m pl": "nasty, cruel",
+              "f sl": "nasty, cruel",
+              "f pl": "nasty, cruel"
+            },
+            "ru": {
+              "м ед": "скверный, жестокий",
+              "м мн": "скверные, жестокие",
+              "ж ед": "скверная, жестокая",
+              "ж мн": "скверные, жестокие"
+            }
           },
-          "en": {
-            "m sl": "nasty, cruel",
-            "m pl": "nasty, cruel",
-            "f sl": "nasty, cruel",
-            "f pl": "nasty, cruel"
-          },
-          "ru": {
-            "м ед": "скверный, жестокий",
-            "м мн": "скверные, жестокие",
-            "ж ед": "скверная, жестокая",
-            "ж мн": "скверные, жестокие"
-          }
+          "examples": []
         },
         {
-          "fr": {
-            "m sl": "beau/bel",
-            "m pl": "beaux",
-            "f sl": "belle",
-            "f pl": "belles"
+          "word": {
+            "fr": {
+              "m sl": "beau/bel",
+              "m pl": "beaux",
+              "f sl": "belle",
+              "f pl": "belles"
+            },
+            "en": {
+              "m sl": "beautiful, nice",
+              "m pl": "beautiful, nice",
+              "f sl": "beautiful, nice",
+              "f pl": "beautiful, nice"
+            },
+            "ru": {
+              "м ед": "прекрасный, хороший",
+              "м мн": "прекрасные, хорошие",
+              "ж ед": "прекрасная, хорошая",
+              "ж мн": "прекрасные, хорошие"
+            }
           },
-          "en": {
-            "m sl": "beautiful, nice",
-            "m pl": "beautiful, nice",
-            "f sl": "beautiful, nice",
-            "f pl": "beautiful, nice"
-          },
-          "ru": {
-            "м ед": "прекрасный, хороший",
-            "м мн": "прекрасные, хорошие",
-            "ж ед": "прекрасная, хорошая",
-            "ж мн": "прекрасные, хорошие"
-          }
+          "examples": []
         },
         {
-          "fr": {
-            "m sl": "joli",
-            "m pl": "jolis",
-            "f sl": "jolie",
-            "f pl": "jolies"
+          "word": {
+            "fr": {
+              "m sl": "joli",
+              "m pl": "jolis",
+              "f sl": "jolie",
+              "f pl": "jolies"
+            },
+            "en": {
+              "m sl": "nice, pretty",
+              "m pl": "nice, pretty",
+              "f sl": "nice, pretty",
+              "f pl": "nice, pretty"
+            },
+            "ru": {
+              "м ед": "красивый, симпатичный",
+              "м мн": "красивые, симпатичные",
+              "ж ед": "красивая, симпатичная",
+              "ж мн": "красивые, симпатичные"
+            }
           },
-          "en": {
-            "m sl": "nice, pretty",
-            "m pl": "nice, pretty",
-            "f sl": "nice, pretty",
-            "f pl": "nice, pretty"
-          },
-          "ru": {
-            "м ед": "красивый, симпатичный",
-            "м мн": "красивые, симпатичные",
-            "ж ед": "красивая, симпатичная",
-            "ж мн": "красивые, симпатичные"
-          }
+          "examples": []
         },
         {
-          "fr": {
-            "m sl": "laid",
-            "m pl": "laids",
-            "f sl": "laide",
-            "f pl": "laides"
+          "word": {
+            "fr": {
+              "m sl": "laid",
+              "m pl": "laids",
+              "f sl": "laide",
+              "f pl": "laides"
+            },
+            "en": {
+              "m sl": "ugly",
+              "m pl": "ugly",
+              "f sl": "ugly",
+              "f pl": "ugly"
+            },
+            "ru": {
+              "м ед": "некрасивый, уродливый",
+              "м мн": "некрасивые, уродливые",
+              "ж ед": "некрасивая, уродливая",
+              "ж мн": "некрасивые, уродливые"
+            }
           },
-          "en": {
-            "m sl": "ugly",
-            "m pl": "ugly",
-            "f sl": "ugly",
-            "f pl": "ugly"
-          },
-          "ru": {
-            "м ед": "некрасивый, уродливый",
-            "м мн": "некрасивые, уродливые",
-            "ж ед": "некрасивая, уродливая",
-            "ж мн": "некрасивые, уродливые"
-          }
+          "examples": []
         },
         {
-          "fr": {
-            "m sl": "affreux",
-            "m pl": "affreuse",
-            "f sl": "affreux",
-            "f pl": "affreuse"
+          "word": {
+            "fr": {
+              "m sl": "affreux",
+              "m pl": "affreuse",
+              "f sl": "affreux",
+              "f pl": "affreuse"
+            },
+            "en": {
+              "m sl": "terrible, horrible, awful",
+              "m pl": "terrible, horrible, awful",
+              "f sl": "terrible, horrible, awful",
+              "f pl": "terrible, horrible, awful"
+            },
+            "ru": {
+              "м ед": "страшный, ужасный",
+              "м мн": "страшные, ужасные",
+              "ж ед": "страшная, ужасная",
+              "ж мн": "страшные, ужасные"
+            }
           },
-          "en": {
-            "m sl": "terrible, horrible, awful",
-            "m pl": "terrible, horrible, awful",
-            "f sl": "terrible, horrible, awful",
-            "f pl": "terrible, horrible, awful"
-          },
-          "ru": {
-            "м ед": "страшный, ужасный",
-            "м мн": "страшные, ужасные",
-            "ж ед": "страшная, ужасная",
-            "ж мн": "страшные, ужасные"
-          }
+          "examples": []
         },
         {
-          "fr": {
-            "m sl": "pauvre",
-            "m pl": "pauvres",
-            "f sl": "pauvre",
-            "f pl": "pauvres"
+          "word": {
+            "fr": {
+              "m sl": "pauvre",
+              "m pl": "pauvres",
+              "f sl": "pauvre",
+              "f pl": "pauvres"
+            },
+            "en": {
+              "m sl": "poor",
+              "m pl": "poor",
+              "f sl": "poor",
+              "f pl": "poor"
+            },
+            "ru": {
+              "м ед": "бедный",
+              "м мн": "бедные",
+              "ж ед": "бедная",
+              "ж мн": "бедные"
+            }
           },
-          "en": {
-            "m sl": "poor",
-            "m pl": "poor",
-            "f sl": "poor",
-            "f pl": "poor"
-          },
-          "ru": {
-            "м ед": "бедный",
-            "м мн": "бедные",
-            "ж ед": "бедная",
-            "ж мн": "бедные"
-          }
+          "examples": []
         },
         {
-          "fr": {
-            "m sl": "riche",
-            "m pl": "riches",
-            "f sl": "riche",
-            "f pl": "riches"
+          "word": {
+            "fr": {
+              "m sl": "riche",
+              "m pl": "riches",
+              "f sl": "riche",
+              "f pl": "riches"
+            },
+            "en": {
+              "m sl": "rich, wealthy",
+              "m pl": "rich, wealthy",
+              "f sl": "rich, wealthy",
+              "f pl": "rich, wealthy"
+            },
+            "ru": {
+              "м ед": "богатый",
+              "м мн": "богатые",
+              "ж ед": "богатая",
+              "ж мн": "богатые"
+            }
           },
-          "en": {
-            "m sl": "rich, wealthy",
-            "m pl": "rich, wealthy",
-            "f sl": "rich, wealthy",
-            "f pl": "rich, wealthy"
-          },
-          "ru": {
-            "м ед": "богатый",
-            "м мн": "богатые",
-            "ж ед": "богатая",
-            "ж мн": "богатые"
-          }
+          "examples": []
         },
         {
-          "fr": {
-            "m sl": "calme",
-            "m pl": "calmes",
-            "f sl": "calme",
-            "f pl": "calmes"
+          "word": {
+            "fr": {
+              "m sl": "calme",
+              "m pl": "calmes",
+              "f sl": "calme",
+              "f pl": "calmes"
+            },
+            "en": {
+              "m sl": "calm, quiet",
+              "m pl": "calm, quiet",
+              "f sl": "calm, quiet",
+              "f pl": "calm, quiet"
+            },
+            "ru": {
+              "м ед": "спокойный, тихий",
+              "м мн": "спокойные, тихие",
+              "ж ед": "спокойная, тихая",
+              "ж мн": "спокойные, тихие"
+            }
           },
-          "en": {
-            "m sl": "calm, quiet",
-            "m pl": "calm, quiet",
-            "f sl": "calm, quiet",
-            "f pl": "calm, quiet"
-          },
-          "ru": {
-            "м ед": "спокойный, тихий",
-            "м мн": "спокойные, тихие",
-            "ж ед": "спокойная, тихая",
-            "ж мн": "спокойные, тихие"
-          }
+          "examples": []
         },
         {
-          "fr": {
-            "m sl": "libre",
-            "m pl": "libres",
-            "f sl": "libre",
-            "f pl": "libres"
+          "word": {
+            "fr": {
+              "m sl": "libre",
+              "m pl": "libres",
+              "f sl": "libre",
+              "f pl": "libres"
+            },
+            "en": {
+              "m sl": "free, spare",
+              "m pl": "free, spare",
+              "f sl": "free, spare",
+              "f pl": "free, spare"
+            },
+            "ru": {
+              "м ед": "свободный",
+              "м мн": "свободные",
+              "ж ед": "свободная",
+              "ж мн": "свободные"
+            }
           },
-          "en": {
-            "m sl": "free, spare",
-            "m pl": "free, spare",
-            "f sl": "free, spare",
-            "f pl": "free, spare"
-          },
-          "ru": {
-            "м ед": "свободный",
-            "м мн": "свободные",
-            "ж ед": "свободная",
-            "ж мн": "свободные"
-          }
+          "examples": []
         },
         {
-          "fr": {
-            "m sl": "facile",
-            "m pl": "faciles",
-            "f sl": "facile",
-            "f pl": "faciles"
+          "word": {
+            "fr": {
+              "m sl": "facile",
+              "m pl": "faciles",
+              "f sl": "facile",
+              "f pl": "faciles"
+            },
+            "en": {
+              "m sl": "easy",
+              "m pl": "easy",
+              "f sl": "easy",
+              "f pl": "easy"
+            },
+            "ru": {
+              "м ед": "легкий",
+              "м мн": "легкие",
+              "ж ед": "легкая",
+              "ж мн": "легкие"
+            }
           },
-          "en": {
-            "m sl": "easy",
-            "m pl": "easy",
-            "f sl": "easy",
-            "f pl": "easy"
-          },
-          "ru": {
-            "м ед": "легкий",
-            "м мн": "легкие",
-            "ж ед": "легкая",
-            "ж мн": "легкие"
-          }
+          "examples": []
         },
         {
-          "fr": {
-            "m sl": "difficile",
-            "m pl": "difficiles",
-            "f sl": "difficile",
-            "f pl": "difficiles"
+          "word": {
+            "fr": {
+              "m sl": "difficile",
+              "m pl": "difficiles",
+              "f sl": "difficile",
+              "f pl": "difficiles"
+            },
+            "en": {
+              "m sl": "difficult",
+              "m pl": "difficult",
+              "f sl": "difficult",
+              "f pl": "difficult"
+            },
+            "ru": {
+              "м ед": "трудный",
+              "м мн": "трудные",
+              "ж ед": "трудная",
+              "ж мн": "трудные"
+            }
           },
-          "en": {
-            "m sl": "difficult",
-            "m pl": "difficult",
-            "f sl": "difficult",
-            "f pl": "difficult"
-          },
-          "ru": {
-            "м ед": "трудный",
-            "м мн": "трудные",
-            "ж ед": "трудная",
-            "ж мн": "трудные"
-          }
+          "examples": []
         },
         {
-          "fr": {
-            "m sl": "intelligent",
-            "m pl": "intelligents",
-            "f sl": "intelligente",
-            "f pl": "intelligentes"
+          "word": {
+            "fr": {
+              "m sl": "intelligent",
+              "m pl": "intelligents",
+              "f sl": "intelligente",
+              "f pl": "intelligentes"
+            },
+            "en": {
+              "m sl": "intelligent",
+              "m pl": "intelligent",
+              "f sl": "intelligent",
+              "f pl": "intelligent"
+            },
+            "ru": {
+              "м ед": "умный",
+              "м мн": "умные",
+              "ж ед": "умная",
+              "ж мн": "умные"
+            }
           },
-          "en": {
-            "m sl": "intelligent",
-            "m pl": "intelligent",
-            "f sl": "intelligent",
-            "f pl": "intelligent"
-          },
-          "ru": {
-            "м ед": "умный",
-            "м мн": "умные",
-            "ж ед": "умная",
-            "ж мн": "умные"
-          }
+          "examples": []
         }
       ]
     },
@@ -776,224 +884,257 @@
       },
       "words": [
         {
-          "fr": {
-            "m sl": "froid",
-            "m pl": "froids",
-            "f sl": "froide",
-            "f pl": "froides"
+          "word": {
+            "fr": {
+              "m sl": "froid",
+              "m pl": "froids",
+              "f sl": "froide",
+              "f pl": "froides"
+            },
+            "en": {
+              "m sl": "cold, cool",
+              "m pl": "cold, cool",
+              "f sl": "cold, cool",
+              "f pl": "cold, cool"
+            },
+            "ru": {
+              "м ед": "холодный",
+              "м мн": "холодные",
+              "ж ед": "холодная",
+              "ж мн": "холодные"
+            }
           },
-          "en": {
-            "m sl": "cold, cool",
-            "m pl": "cold, cool",
-            "f sl": "cold, cool",
-            "f pl": "cold, cool"
-          },
-          "ru": {
-            "м ед": "холодный",
-            "м мн": "холодные",
-            "ж ед": "холодная",
-            "ж мн": "холодные"
-          }
+          "examples": []
         },
         {
-          "fr": {
-            "m sl": "chaud",
-            "m pl": "chauds",
-            "f sl": "chaude",
-            "f pl": "chaudes"
+          "word": {
+            "fr": {
+              "m sl": "chaud",
+              "m pl": "chauds",
+              "f sl": "chaude",
+              "f pl": "chaudes"
+            },
+            "en": {
+              "m sl": "hot, warm",
+              "m pl": "hot, warm",
+              "f sl": "hot, warm",
+              "f pl": "hot, warm"
+            },
+            "ru": {
+              "м ед": "теплый, горячий",
+              "м мн": "теплые, горячие",
+              "ж ед": "теплая, горячая",
+              "ж мн": "теплые, горячие"
+            }
           },
-          "en": {
-            "m sl": "hot, warm",
-            "m pl": "hot, warm",
-            "f sl": "hot, warm",
-            "f pl": "hot, warm"
-          },
-          "ru": {
-            "м ед": "теплый, горячий",
-            "м мн": "теплые, горячие",
-            "ж ед": "теплая, горячая",
-            "ж мн": "теплые, горячие"
-          }
+          "examples": []
         },
         {
-          "fr": {
-            "m sl": "fort",
-            "m pl": "forts",
-            "f sl": "forte",
-            "f pl": "fortes"
+          "word": {
+            "fr": {
+              "m sl": "fort",
+              "m pl": "forts",
+              "f sl": "forte",
+              "f pl": "fortes"
+            },
+            "en": {
+              "m sl": "strong",
+              "m pl": "strong",
+              "f sl": "strong",
+              "f pl": "strong"
+            },
+            "ru": {
+              "м ед": "сильный",
+              "м мн": "сильные",
+              "ж ед": "сильная",
+              "ж мн": "сильные"
+            }
           },
-          "en": {
-            "m sl": "strong",
-            "m pl": "strong",
-            "f sl": "strong",
-            "f pl": "strong"
-          },
-          "ru": {
-            "м ед": "сильный",
-            "м мн": "сильные",
-            "ж ед": "сильная",
-            "ж мн": "сильные"
-          }
+          "examples": []
         },
         {
-          "fr": {
-            "m sl": "faible",
-            "m pl": "faibles",
-            "f sl": "faible",
-            "f pl": "faibles"
+          "word": {
+            "fr": {
+              "m sl": "faible",
+              "m pl": "faibles",
+              "f sl": "faible",
+              "f pl": "faibles"
+            },
+            "en": {
+              "m sl": "weak",
+              "m pl": "weak",
+              "f sl": "weak",
+              "f pl": "weak"
+            },
+            "ru": {
+              "м ед": "слабый",
+              "м мн": "слабые",
+              "ж ед": "слабая",
+              "ж мн": "слабые"
+            }
           },
-          "en": {
-            "m sl": "weak",
-            "m pl": "weak",
-            "f sl": "weak",
-            "f pl": "weak"
-          },
-          "ru": {
-            "м ед": "слабый",
-            "м мн": "слабые",
-            "ж ед": "слабая",
-            "ж мн": "слабые"
-          }
+          "examples": []
         },
         {
-          "fr": {
-            "m sl": "léger",
-            "m pl": "légers",
-            "f sl": "légère",
-            "f pl": "légères"
+          "word": {
+            "fr": {
+              "m sl": "léger",
+              "m pl": "légers",
+              "f sl": "légère",
+              "f pl": "légères"
+            },
+            "en": {
+              "m sl": "light, slight",
+              "m pl": "light, slight",
+              "f sl": "light, slight",
+              "f pl": "light, slight"
+            },
+            "ru": {
+              "м ед": "легкий",
+              "м мн": "легкие",
+              "ж ед": "легкая",
+              "ж мн": "легкие"
+            }
           },
-          "en": {
-            "m sl": "light, slight",
-            "m pl": "light, slight",
-            "f sl": "light, slight",
-            "f pl": "light, slight"
-          },
-          "ru": {
-            "м ед": "легкий",
-            "м мн": "легкие",
-            "ж ед": "легкая",
-            "ж мн": "легкие"
-          }
+          "examples": []
         },
         {
-          "fr": {
-            "m sl": "lourd",
-            "m pl": "lourds",
-            "f sl": "lourde",
-            "f pl": "lourdes"
+          "word": {
+            "fr": {
+              "m sl": "lourd",
+              "m pl": "lourds",
+              "f sl": "lourde",
+              "f pl": "lourdes"
+            },
+            "en": {
+              "m sl": "heavy",
+              "m pl": "heavy",
+              "f sl": "heavy",
+              "f pl": "heavy"
+            },
+            "ru": {
+              "м ед": "тяжелый",
+              "м мн": "тяжелые",
+              "ж ед": "тяжелая",
+              "ж мн": "тяжелые"
+            }
           },
-          "en": {
-            "m sl": "heavy",
-            "m pl": "heavy",
-            "f sl": "heavy",
-            "f pl": "heavy"
-          },
-          "ru": {
-            "м ед": "тяжелый",
-            "м мн": "тяжелые",
-            "ж ед": "тяжелая",
-            "ж мн": "тяжелые"
-          }
+          "examples": []
         },
         {
-          "fr": {
-            "m sl": "sec",
-            "m pl": "secs",
-            "f sl": "sèche",
-            "f pl": "sèches"
+          "word": {
+            "fr": {
+              "m sl": "sec",
+              "m pl": "secs",
+              "f sl": "sèche",
+              "f pl": "sèches"
+            },
+            "en": {
+              "m sl": "dry",
+              "m pl": "dry",
+              "f sl": "dry",
+              "f pl": "dry"
+            },
+            "ru": {
+              "м ед": "сухой",
+              "м мн": "сухие",
+              "ж ед": "сухая",
+              "ж мн": "сухие"
+            }
           },
-          "en": {
-            "m sl": "dry",
-            "m pl": "dry",
-            "f sl": "dry",
-            "f pl": "dry"
-          },
-          "ru": {
-            "м ед": "сухой",
-            "м мн": "сухие",
-            "ж ед": "сухая",
-            "ж мн": "сухие"
-          }
+          "examples": []
         },
         {
-          "fr": {
-            "m sl": "mouillé",
-            "m pl": "mouillés",
-            "f sl": "mouillée",
-            "f pl": "mouillées"
+          "word": {
+            "fr": {
+              "m sl": "mouillé",
+              "m pl": "mouillés",
+              "f sl": "mouillée",
+              "f pl": "mouillées"
+            },
+            "en": {
+              "m sl": "wet",
+              "m pl": "wet",
+              "f sl": "wet",
+              "f pl": "wet"
+            },
+            "ru": {
+              "м ед": "влажный, мокрый",
+              "м мн": "влажные, мокрые",
+              "ж ед": "влажная, мокрая",
+              "ж мн": "влажные, мокрые"
+            }
           },
-          "en": {
-            "m sl": "wet",
-            "m pl": "wet",
-            "f sl": "wet",
-            "f pl": "wet"
-          },
-          "ru": {
-            "м ед": "влажный, мокрый",
-            "м мн": "влажные, мокрые",
-            "ж ед": "влажная, мокрая",
-            "ж мн": "влажные, мокрые"
-          }
+          "examples": []
         },
         {
-          "fr": {
-            "m sl": "humide",
-            "m pl": "humides",
-            "f sl": "humide",
-            "f pl": "humides"
+          "word": {
+            "fr": {
+              "m sl": "humide",
+              "m pl": "humides",
+              "f sl": "humide",
+              "f pl": "humides"
+            },
+            "en": {
+              "m sl": "wet",
+              "m pl": "wet",
+              "f sl": "wet",
+              "f pl": "wet"
+            },
+            "ru": {
+              "м ед": "влажный, мокрый",
+              "м мн": "влажные, мокрые",
+              "ж ед": "влажная, мокрая",
+              "ж мн": "влажные, мокрые"
+            }
           },
-          "en": {
-            "m sl": "wet",
-            "m pl": "wet",
-            "f sl": "wet",
-            "f pl": "wet"
-          },
-          "ru": {
-            "м ед": "влажный, мокрый",
-            "м мн": "влажные, мокрые",
-            "ж ед": "влажная, мокрая",
-            "ж мн": "влажные, мокрые"
-          }
+          "examples": []
         },
         {
-          "fr": {
-            "m sl": "dur",
-            "m pl": "durs",
-            "f sl": "dure",
-            "f pl": "dures"
+          "word": {
+            "fr": {
+              "m sl": "dur",
+              "m pl": "durs",
+              "f sl": "dure",
+              "f pl": "dures"
+            },
+            "en": {
+              "m sl": "hard, tough",
+              "m pl": "hard, tough",
+              "f sl": "hard, tough",
+              "f pl": "hard, tough"
+            },
+            "ru": {
+              "м ед": "жесткий",
+              "м мн": "жесткие",
+              "ж ед": "жесткая",
+              "ж мн": "жесткие"
+            }
           },
-          "en": {
-            "m sl": "hard, tough",
-            "m pl": "hard, tough",
-            "f sl": "hard, tough",
-            "f pl": "hard, tough"
-          },
-          "ru": {
-            "м ед": "жесткий",
-            "м мн": "жесткие",
-            "ж ед": "жесткая",
-            "ж мн": "жесткие"
-          }
+          "examples": []
         },
         {
-          "fr": {
-            "m sl": "doux",
-            "m pl": "douce",
-            "f sl": "doux",
-            "f pl": "douces"
+          "word": {
+            "fr": {
+              "m sl": "doux",
+              "m pl": "douce",
+              "f sl": "doux",
+              "f pl": "douces"
+            },
+            "en": {
+              "m sl": "soft",
+              "m pl": "soft",
+              "f sl": "soft",
+              "f pl": "soft"
+            },
+            "ru": {
+              "м ед": "мягкий",
+              "м мн": "мягкие",
+              "ж ед": "мягкая",
+              "ж мн": "мягкие"
+            }
           },
-          "en": {
-            "m sl": "soft",
-            "m pl": "soft",
-            "f sl": "soft",
-            "f pl": "soft"
-          },
-          "ru": {
-            "м ед": "мягкий",
-            "м мн": "мягкие",
-            "ж ед": "мягкая",
-            "ж мн": "мягкие"
-          }
+          "examples": []
         }
       ]
     },
@@ -1005,44 +1146,50 @@
       },
       "words": [
         {
-          "fr": {
-            "m sl": "rapide",
-            "m pl": "rapides",
-            "f sl": "rapide",
-            "f pl": "rapides"
+          "word": {
+            "fr": {
+              "m sl": "rapide",
+              "m pl": "rapides",
+              "f sl": "rapide",
+              "f pl": "rapides"
+            },
+            "en": {
+              "m sl": "fast, quick",
+              "m pl": "fast, quick",
+              "f sl": "fast, quick",
+              "f pl": "fast, quick"
+            },
+            "ru": {
+              "м ед": "быстрый",
+              "м мн": "быстрые",
+              "ж ед": "быстрая",
+              "ж мн": "быстрые"
+            }
           },
-          "en": {
-            "m sl": "fast, quick",
-            "m pl": "fast, quick",
-            "f sl": "fast, quick",
-            "f pl": "fast, quick"
-          },
-          "ru": {
-            "м ед": "быстрый",
-            "м мн": "быстрые",
-            "ж ед": "быстрая",
-            "ж мн": "быстрые"
-          }
+          "examples": []
         },
         {
-          "fr": {
-            "m sl": "lent",
-            "m pl": "lents",
-            "f sl": "lente",
-            "f pl": "lentes"
+          "word": {
+            "fr": {
+              "m sl": "lent",
+              "m pl": "lents",
+              "f sl": "lente",
+              "f pl": "lentes"
+            },
+            "en": {
+              "m sl": "slow",
+              "m pl": "slow",
+              "f sl": "slow",
+              "f pl": "slow"
+            },
+            "ru": {
+              "м ед": "медленный",
+              "м мн": "медленные",
+              "ж ед": "медленная",
+              "ж мн": "медленные"
+            }
           },
-          "en": {
-            "m sl": "slow",
-            "m pl": "slow",
-            "f sl": "slow",
-            "f pl": "slow"
-          },
-          "ru": {
-            "м ед": "медленный",
-            "м мн": "медленные",
-            "ж ед": "медленная",
-            "ж мн": "медленные"
-          }
+          "examples": []
         }
       ]
     },
@@ -1054,104 +1201,119 @@
       },
       "words": [
         {
-          "fr": {
-            "m sl": "bon",
-            "m pl": "bons",
-            "f sl": "bonne",
-            "f pl": "bonnes"
+          "word": {
+            "fr": {
+              "m sl": "bon",
+              "m pl": "bons",
+              "f sl": "bonne",
+              "f pl": "bonnes"
+            },
+            "en": {
+              "m sl": "good, proper, correct",
+              "m pl": "good, proper, correct",
+              "f sl": "good, proper, correct",
+              "f pl": "good, proper, correct"
+            },
+            "ru": {
+              "м ед": "хороший",
+              "м мн": "хорошие",
+              "ж ед": "хорошая",
+              "ж мн": "хорошие"
+            }
           },
-          "en": {
-            "m sl": "good, proper, correct",
-            "m pl": "good, proper, correct",
-            "f sl": "good, proper, correct",
-            "f pl": "good, proper, correct"
-          },
-          "ru": {
-            "м ед": "хороший",
-            "м мн": "хорошие",
-            "ж ед": "хорошая",
-            "ж мн": "хорошие"
-          }
+          "examples": []
         },
         {
-          "fr": {
-            "m sl": "mauvais",
-            "m pl": "mauvais",
-            "f sl": "mauvaise",
-            "f pl": "mauvaises"
+          "word": {
+            "fr": {
+              "m sl": "mauvais",
+              "m pl": "mauvais",
+              "f sl": "mauvaise",
+              "f pl": "mauvaises"
+            },
+            "en": {
+              "m sl": "bad, wrong",
+              "m pl": "bad, wrong",
+              "f sl": "bad, wrong",
+              "f pl": "bad, wrong"
+            },
+            "ru": {
+              "м ед": "плохой",
+              "м мн": "плохие",
+              "ж ед": "плохая",
+              "ж мн": "плохие"
+            }
           },
-          "en": {
-            "m sl": "bad, wrong",
-            "m pl": "bad, wrong",
-            "f sl": "bad, wrong",
-            "f pl": "bad, wrong"
-          },
-          "ru": {
-            "м ед": "плохой",
-            "м мн": "плохие",
-            "ж ед": "плохая",
-            "ж мн": "плохие"
-          }
+          "examples": []
         },
         {
-          "fr": {
-            "m sl": "meilleur",
-            "m pl": "meilleurs",
-            "f sl": "meilleure",
-            "f pl": "meilleures"
+          "word": {
+            "fr": {
+              "m sl": "meilleur",
+              "m pl": "meilleurs",
+              "f sl": "meilleure",
+              "f pl": "meilleures"
+            },
+            "en": {
+              "m sl": "better",
+              "m pl": "better",
+              "f sl": "better",
+              "f pl": "better"
+            },
+            "ru": {
+              "м ед": "лучший",
+              "м мн": "лучшие",
+              "ж ед": "лучшая",
+              "ж мн": "лучшие"
+            }
           },
-          "en": {
-            "m sl": "better",
-            "m pl": "better",
-            "f sl": "better",
-            "f pl": "better"
-          },
-          "ru": {
-            "м ед": "лучший",
-            "м мн": "лучшие",
-            "ж ед": "лучшая",
-            "ж мн": "лучшие"
-          }
+          "examples": []
         },
         {
-          "fr": {
-            "m sl": "pire",
-            "m pl": "pires",
-            "f sl": "pire",
-            "f pl": "pires"
+          "word": {
+            "fr": {
+              "m sl": "pire",
+              "m pl": "pires",
+              "f sl": "pire",
+              "f pl": "pires"
+            },
+            "en": {
+              "m sl": "worse",
+              "m pl": "worse",
+              "f sl": "worse",
+              "f pl": "worse"
+            },
+            "ru": {
+              "м ед": "худший",
+              "м мн": "худшие",
+              "ж ед": "худшая",
+              "ж мн": "худшие"
+            }
           },
-          "en": {
-            "m sl": "worse",
-            "m pl": "worse",
-            "f sl": "worse",
-            "f pl": "worse"
-          },
-          "ru": {
-            "м ед": "худший",
-            "м мн": "худшие",
-            "ж ед": "худшая",
-            "ж мн": "худшие"
-          }
+          "examples": []
         },
         {
-          "fr": {
-            "m sl": "ordinaire",
-            "m pl": "ordinaires",
-            "f sl": "ordinaire",
-            "f pl": "ordinaires"
+          "word": {
+            "fr": {
+              "m sl": "ordinaire",
+              "m pl": "ordinaires",
+              "f sl": "ordinaire",
+              "f pl": "ordinaires"
+            },
+            "en": {
+              "m sl": "ordinary, regular",
+              "m pl": "ordinary, regular",
+              "f sl": "ordinary, regular",
+              "f pl": "ordinary, regular"
+            },
+            "ru": {
+              "м ед": "обычный",
+              "м мн": "обычные",
+              "ж ед": "обычная",
+              "ж мн": "обычные"
+            }
           },
-          "en": {
-            "m sl": "ordinary, regular",
-            "m pl": "ordinary, regular",
-            "f sl": "ordinary, regular",
-            "f pl": "ordinary, regular"
-          },
-          "ru": {
-            "м ед": "обычный",
-            "м мн": "обычные",
-            "ж ед": "обычная",
-            "ж мн": "обычные"
-          }
+          "examples": []
         }
       ]
     },
@@ -1163,84 +1325,96 @@
       },
       "words": [
         {
-          "fr": {
-            "m sl": "premier",
-            "m pl": "premiers",
-            "f sl": "première",
-            "f pl": "premières"
+          "word": {
+            "fr": {
+              "m sl": "premier",
+              "m pl": "premiers",
+              "f sl": "première",
+              "f pl": "premières"
+            },
+            "en": {
+              "m sl": "first, prime, main",
+              "m pl": "first, prime, main",
+              "f sl": "first, prime, main",
+              "f pl": "first, prime, main"
+            },
+            "ru": {
+              "м ед": "первый",
+              "м мн": "первые",
+              "ж ед": "первая",
+              "ж мн": "первые"
+            }
           },
-          "en": {
-            "m sl": "first, prime, main",
-            "m pl": "first, prime, main",
-            "f sl": "first, prime, main",
-            "f pl": "first, prime, main"
-          },
-          "ru": {
-            "м ед": "первый",
-            "м мн": "первые",
-            "ж ед": "первая",
-            "ж мн": "первые"
-          }
+          "examples": []
         },
         {
-          "fr": {
-            "m sl": "dernier",
-            "m pl": "derniers",
-            "f sl": "dernière",
-            "f pl": "dernières"
+          "word": {
+            "fr": {
+              "m sl": "dernier",
+              "m pl": "derniers",
+              "f sl": "dernière",
+              "f pl": "dernières"
+            },
+            "en": {
+              "m sl": "last, final, past",
+              "m pl": "last, final, past",
+              "f sl": "last, final, past",
+              "f pl": "last, final, past"
+            },
+            "ru": {
+              "м ед": "последний, прошлый",
+              "м мн": "последние, прошлые",
+              "ж ед": "последняя, прошлая",
+              "ж мн": "последние, прошлые"
+            }
           },
-          "en": {
-            "m sl": "last, final, past",
-            "m pl": "last, final, past",
-            "f sl": "last, final, past",
-            "f pl": "last, final, past"
-          },
-          "ru": {
-            "м ед": "последний, прошлый",
-            "м мн": "последние, прошлые",
-            "ж ед": "последняя, прошлая",
-            "ж мн": "последние, прошлые"
-          }
+          "examples": []
         },
         {
-          "fr": {
-            "m sl": "prochain",
-            "m pl": "prochains",
-            "f sl": "prochaine",
-            "f pl": "prochaines"
+          "word": {
+            "fr": {
+              "m sl": "prochain",
+              "m pl": "prochains",
+              "f sl": "prochaine",
+              "f pl": "prochaines"
+            },
+            "en": {
+              "m sl": "next, upcoming, following",
+              "m pl": "next, upcoming, following",
+              "f sl": "next, upcoming, following",
+              "f pl": "next, upcoming, following"
+            },
+            "ru": {
+              "м ед": "следующий, грядущий",
+              "м мн": "следующие, грядущие",
+              "ж ед": "следующая, грядущая",
+              "ж мн": "следующие, грядущие"
+            }
           },
-          "en": {
-            "m sl": "next, upcoming, following",
-            "m pl": "next, upcoming, following",
-            "f sl": "next, upcoming, following",
-            "f pl": "next, upcoming, following"
-          },
-          "ru": {
-            "м ед": "следующий, грядущий",
-            "м мн": "следующие, грядущие",
-            "ж ед": "следующая, грядущая",
-            "ж мн": "следующие, грядущие"
-          }
+          "examples": []
         },
         {
-          "fr": {
-            "m sl": "autre",
-            "m pl": "autres",
-            "f sl": "autre",
-            "f pl": "autres"
+          "word": {
+            "fr": {
+              "m sl": "autre",
+              "m pl": "autres",
+              "f sl": "autre",
+              "f pl": "autres"
+            },
+            "en": {
+              "m sl": "other",
+              "m pl": "other",
+              "f sl": "other",
+              "f pl": "other"
+            },
+            "ru": {
+              "м ед": "другой",
+              "м мн": "другие",
+              "ж ед": "другая",
+              "ж мн": "другие"
+            }
           },
-          "en": {
-            "m sl": "other",
-            "m pl": "other",
-            "f sl": "other",
-            "f pl": "other"
-          },
-          "ru": {
-            "м ед": "другой",
-            "м мн": "другие",
-            "ж ед": "другая",
-            "ж мн": "другие"
-          }
+          "examples": []
         }
       ]
     }
@@ -1253,72 +1427,84 @@
     },
     "words": [
       {
-        "fr": {
-          "": "beau",
-          "plus": "beau",
-          "le plus": "beau"
+        "word": {
+          "fr": {
+            "": "beau",
+            "plus": "beau",
+            "le plus": "beau"
+          },
+          "en": {
+            "": "beautiful",
+            "more": "beautiful",
+            "most": "beautiful"
+          },
+          "ru": {
+            "": "красивый",
+            "более": "красивый",
+            "самый": "красивый"
+          }
         },
-        "en": {
-          "": "beautiful",
-          "more": "beautiful",
-          "most": "beautiful"
-        },
-        "ru": {
-          "": "красивый",
-          "более": "красивый",
-          "самый": "красивый"
-        }
+        "examples": []
       },
       {
-        "fr": {
-          "": "belle",
-          "plus": "belle",
-          "la plus": "belle"
+        "word": {
+          "fr": {
+            "": "belle",
+            "plus": "belle",
+            "la plus": "belle"
+          },
+          "en": {
+            "": "beautiful",
+            "more": "beautiful",
+            "most": "beautiful"
+          },
+          "ru": {
+            "": "красивая",
+            "более": "красивая",
+            "самая": "красивая"
+          }
         },
-        "en": {
-          "": "beautiful",
-          "more": "beautiful",
-          "most": "beautiful"
-        },
-        "ru": {
-          "": "красивая",
-          "более": "красивая",
-          "самая": "красивая"
-        }
+        "examples": []
       },
       {
-        "fr": {
-          "": "petit",
-          "plus": "petit",
-          "le plus": "petit"
+        "word": {
+          "fr": {
+            "": "petit",
+            "plus": "petit",
+            "le plus": "petit"
+          },
+          "en": {
+            "": "little",
+            "less": "",
+            "least": ""
+          },
+          "ru": {
+            "": "маленький",
+            "меньший": "",
+            "самый": "маленький"
+          }
         },
-        "en": {
-          "": "little",
-          "less": "",
-          "least": ""
-        },
-        "ru": {
-          "": "маленький",
-          "меньший": "",
-          "самый": "маленький"
-        }
+        "examples": []
       },
       {
-        "fr": {
-          "": "petite",
-          "plus": "petite",
-          "la plus": "petite"
+        "word": {
+          "fr": {
+            "": "petite",
+            "plus": "petite",
+            "la plus": "petite"
+          },
+          "en": {
+            "": "little",
+            "less": "",
+            "least": ""
+          },
+          "ru": {
+            "": "маленькая",
+            "меньшая": "",
+            "самая": "маленькая"
+          }
         },
-        "en": {
-          "": "little",
-          "less": "",
-          "least": ""
-        },
-        "ru": {
-          "": "маленькая",
-          "меньшая": "",
-          "самая": "маленькая"
-        }
+        "examples": []
       }
     ]
   }

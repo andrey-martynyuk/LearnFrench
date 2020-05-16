@@ -27,15 +27,15 @@ function loadData(lang)
       const cardContainer = cat.find('#card-container');
       const cardTemplate = cat.find('#card-template');
 
-      $.each(category.words, (index, word) => {
+      $.each(category.words, (index, item) => {
         let card = cardTemplate.clone(true);
-        if (word.color)
-          card.find('.my-word-color').attr('style', `background-color: ${word.color};`);
+        if (item.color)
+          card.find('.my-word-color').attr('style', `background-color: ${item.color};`);
         else
           card.find('.my-word-color').hide();
-        const fr = Object.values(word.fr);
-        const values = Object.values(word[lang]);
-        const keys = Object.keys(word[lang]);
+        const fr = Object.values(item.word.fr);
+        const values = Object.values(item.word[lang]);
+        const keys = Object.keys(item.word[lang]);
         for (let i = 0; i < keys.length; i++) {
           let term = card.find('td.my-cell' + i).children('.my-term');
           term.text(fr[i]);
@@ -59,12 +59,12 @@ function loadData(lang)
     // Clear container
     cardContainer.children().remove(':not(.d-none)');
     
-    $.each(data.comparison.words, (index, word) => {        
+    $.each(data.comparison.words, (index, item) => {        
       let card = cardTemplate.clone(true);
-      const frKeys = Object.keys(word.fr);
-      const frValues = Object.values(word.fr);
-      const langKeys = Object.keys(word[lang]);
-      const langValues = Object.values(word[lang]);
+      const frKeys = Object.keys(item.word.fr);
+      const frValues = Object.values(item.word.fr);
+      const langKeys = Object.keys(item.word[lang]);
+      const langValues = Object.values(item.word[lang]);
       for (let i = 0; i < frKeys.length; i++) {
         let cell = card.find('td.my-cell' + i).children();
         cell.html(`<span class='my-term'>${frKeys[i]}</span> ${frValues[i]}`);
