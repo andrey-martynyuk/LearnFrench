@@ -23,31 +23,42 @@ function loadData(lang)
       cat.find('a.my-cat-index').attr('href', '#cat' + index);
       cat.find('div.my-cat-index').attr('id', 'cat' + index);
       
-      let name = cat.find('#category-name');
-      name.text(category.name.fr);
-      name.attr('title', category.name[lang]);
-      name.tooltip();
+      let catName = cat.find('#category-name');
+      catName.text(category.name.fr + ' ');
+      catName.attr('title', category.name[lang]);
+      catName.tooltip();
 
       const cardContainer = cat.find('#card-container');
       const cardTemplate = cat.find('#card-template');
+      const groupTemplate = cat.find('#group-template');
 
-      $.each(category.words, (index, item) => {
-        let card = cardTemplate.clone(true);
-        if (item.color)
-          card.find('.my-word-color').attr('style', `background-color: ${item.color};`);
-        else
-          card.find('.my-word-color').hide();
-        const fr = Object.values(item.word.fr);
-        const values = Object.values(item.word[lang]);
-        const keys = Object.keys(item.word[lang]);
-        for (let i = 0; i < keys.length; i++) {
-          let term = card.find('td.my-cell' + i).children('.my-term');
-          term.text(fr[i]);
-          term.attr('title', `${values[i]} <span class='my-hint'>(${keys[i]})</span>`);
-          term.tooltip();
-        }
-        card.removeClass('d-none');
-        card.appendTo(cardContainer);
+      $.each(category.groups, (index, item) => {
+        let group = groupTemplate.clone(true);
+        let groupName = group.find('#group-name');
+        groupName.text(item.name.fr + ' ');
+        groupName.attr('title', item.name[lang]);
+        groupName.tooltip();
+        group.removeClass('d-none');
+        group.appendTo(cardContainer);
+
+        $.each(item.words, (index, item) => {
+          let card = cardTemplate.clone(true);
+          if (item.color)
+            card.find('.my-word-color').attr('style', `background-color: ${item.color};`);
+          else
+            card.find('.my-word-color').hide();
+          const fr = Object.values(item.word.fr);
+          const values = Object.values(item.word[lang]);
+          const keys = Object.keys(item.word[lang]);
+          for (let i = 0; i < keys.length; i++) {
+            let term = card.find('td.my-cell' + i).children('.my-term');
+            term.text(fr[i]);
+            term.attr('title', `${values[i]} <span class='my-hint'>(${keys[i]})</span>`);
+            term.tooltip();
+          }
+          card.removeClass('d-none');
+          card.appendTo(cardContainer);
+        });
       });
 
       cat.removeClass('d-none');
