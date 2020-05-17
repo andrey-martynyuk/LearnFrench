@@ -103,6 +103,10 @@ section {
   }
 }
 
+.my-clickable {
+  cursor: pointer;
+}
+
 .my-word-card .card-body {
   padding: 0;
 }

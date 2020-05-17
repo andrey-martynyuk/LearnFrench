@@ -9,108 +9,7 @@
       "groups": [
         {
           "name": {
-            "fr": "Âge",
-            "en": "Age",
-            "ru": "Возраст"
-          },
-          "words": [
-            {
-              "word": {
-                "fr": {
-                  "m sl": "nouveau/nouvel",
-                  "m pl": "nouveaux",
-                  "f sl": "nouvelle",
-                  "f pl": "nouvelles"
-                },
-                "en": {
-                  "m sl": "new",
-                  "m pl": "new",
-                  "f sl": "new",
-                  "f pl": "new"
-                },
-                "ru": {
-                  "м ед": "новый",
-                  "м мн": "новые",
-                  "ж ед": "новая",
-                  "ж мн": "новые"
-                }
-              },
-              "examples": []
-            },
-            {
-              "word": {
-                "fr": {
-                  "m sl": "ancien",
-                  "m pl": "anciens",
-                  "f sl": "ancienne",
-                  "f pl": "anciennes"
-                },
-                "en": {
-                  "m sl": "former, old",
-                  "m pl": "former, old",
-                  "f sl": "former, old",
-                  "f pl": "former, old"
-                },
-                "ru": {
-                  "м ед": "бывший, прежний, старый",
-                  "м мн": "бывшие, прежние, старые",
-                  "ж ед": "бывшая, прежняя, старая",
-                  "ж мн": "бывшие, прежние, старые"
-                }
-              },
-              "examples": []
-            },
-            {
-              "word": {
-                "fr": {
-                  "m sl": "jeune",
-                  "m pl": "jeunes",
-                  "f sl": "jeune",
-                  "f pl": "jeunes"
-                },
-                "en": {
-                  "m sl": "young",
-                  "m pl": "young",
-                  "f sl": "young",
-                  "f pl": "young"
-                },
-                "ru": {
-                  "м ед": "молодой",
-                  "м мн": "молодые",
-                  "ж ед": "молодая",
-                  "ж мн": "молодые"
-                }
-              },
-              "examples": []
-            },
-            {
-              "word": {
-                "fr": {
-                  "m sl": "vieux/vieil",
-                  "m pl": "vieux",
-                  "f sl": "vieille",
-                  "f pl": "vieilles"
-                },
-                "en": {
-                  "m sl": "old",
-                  "m pl": "old",
-                  "f sl": "old",
-                  "f pl": "old"
-                },
-                "ru": {
-                  "м ед": "старый",
-                  "м мн": "старые",
-                  "ж ед": "старая",
-                  "ж мн": "старые"
-                }
-              },
-              "examples": []
-            }
-          ]
-        },
-        {
-          "name": {
-            "fr": "Couleurs",
+            "fr": "Les couleurs",
             "en": "Colors",
             "ru": "Цвета"
           },
@@ -407,30 +306,30 @@
         },
         {
           "name": {
-            "fr": "Dimensions",
-            "en": "Dimensions",
-            "ru": "Размеры"
+            "fr": "Les nationalités",
+            "en": "Nationalities",
+            "ru": "Национальности"
           },
           "words": [
             {
               "word": {
                 "fr": {
-                  "m sl": "petit",
-                  "m pl": "petits",
-                  "f sl": "petite",
-                  "f pl": "petites"
+                  "m sl": "français",
+                  "m pl": "françaises",
+                  "f sl": "française",
+                  "f pl": "françaises"
                 },
                 "en": {
-                  "m sl": "small, little, short",
-                  "m pl": "small, little, short",
-                  "f sl": "small, little, short",
-                  "f pl": "small, little, short"
+                  "m sl": "French",
+                  "m pl": "French",
+                  "f sl": "French",
+                  "f pl": "French"
                 },
                 "ru": {
-                  "м ед": "маленький",
-                  "м мн": "маленькие",
-                  "ж ед": "маленькая",
-                  "ж мн": "маленькие"
+                  "м ед": "французский",
+                  "м мн": "французские",
+                  "ж ед": "французская",
+                  "ж мн": "французские"
                 }
               },
               "examples": []
@@ -438,22 +337,22 @@
             {
               "word": {
                 "fr": {
-                  "m sl": "grand",
-                  "m pl": "grands",
-                  "f sl": "grande",
-                  "f pl": "grandes"
+                  "m sl": "anglais",
+                  "m pl": "anglais",
+                  "f sl": "anglaise",
+                  "f pl": "anglaises"
                 },
                 "en": {
-                  "m sl": "large, great, grand, tall",
-                  "m pl": "large, great, grand, tall",
-                  "f sl": "large, great, grand, tall",
-                  "f pl": "large, great, grand, tall"
+                  "m sl": "English",
+                  "m pl": "English",
+                  "f sl": "English",
+                  "f pl": "English"
                 },
                 "ru": {
-                  "м ед": "большой",
-                  "м мн": "большие",
-                  "ж ед": "большая",
-                  "ж мн": "большие"
+                  "м ед": "английский",
+                  "м мн": "английские",
+                  "ж ед": "английская",
+                  "ж мн": "английские"
                 }
               },
               "examples": []
@@ -461,26 +360,248 @@
             {
               "word": {
                 "fr": {
-                  "m sl": "gros",
-                  "m pl": "gros",
-                  "f sl": "grosse",
-                  "f pl": "grosses"
+                  "m sl": "américain",
+                  "m pl": "américains",
+                  "f sl": "américaine",
+                  "f pl": "américaines"
                 },
                 "en": {
-                  "m sl": "large, bulk, fat",
-                  "m pl": "large, bulk, fat",
-                  "f sl": "large, bulk, fat",
-                  "f pl": "large, bulk, fat"
+                  "m sl": "American",
+                  "m pl": "American",
+                  "f sl": "American",
+                  "f pl": "American"
                 },
                 "ru": {
-                  "м ед": "большой, толстый",
-                  "м мн": "большие, толстые",
-                  "ж ед": "большая, толстая",
-                  "ж мн": "большие, толстые"
+                  "м ед": "американский",
+                  "м мн": "американские",
+                  "ж ед": "американская",
+                  "ж мн": "американские"
                 }
               },
               "examples": []
             },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "allemand",
+                  "m pl": "allemands",
+                  "f sl": "allemande",
+                  "f pl": "allemandes"
+                },
+                "en": {
+                  "m sl": "German",
+                  "m pl": "German",
+                  "f sl": "German",
+                  "f pl": "German"
+                },
+                "ru": {
+                  "м ед": "немецкий",
+                  "м мн": "немецкие",
+                  "ж ед": "немецкая",
+                  "ж мн": "немецкие"
+                }
+              },
+              "examples": []
+            },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "canadien",
+                  "m pl": "canadiens",
+                  "f sl": "canadienne",
+                  "f pl": "canadiennes"
+                },
+                "en": {
+                  "m sl": "Canadian",
+                  "m pl": "Canadian",
+                  "f sl": "Canadian",
+                  "f pl": "Canadian"
+                },
+                "ru": {
+                  "м ед": "канадский",
+                  "м мн": "канадские",
+                  "ж ед": "канадская",
+                  "ж мн": "канадские"
+                }
+              },
+              "examples": []
+            },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "italien",
+                  "m pl": "italiens",
+                  "f sl": "italienne",
+                  "f pl": "italiennes"
+                },
+                "en": {
+                  "m sl": "Italian",
+                  "m pl": "Italian",
+                  "f sl": "Italian",
+                  "f pl": "Italian"
+                },
+                "ru": {
+                  "м ед": "итальянский",
+                  "м мн": "итальянские",
+                  "ж ед": "итальянская",
+                  "ж мн": "итальянские"
+                }
+              },
+              "examples": []
+            },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "européen",
+                  "m pl": "européens",
+                  "f sl": "européenne",
+                  "f pl": "européennes"
+                },
+                "en": {
+                  "m sl": "European",
+                  "m pl": "European",
+                  "f sl": "European",
+                  "f pl": "European"
+                },
+                "ru": {
+                  "м ед": "европейский",
+                  "м мн": "европейские",
+                  "ж ед": "европейская",
+                  "ж мн": "европейские"
+                }
+              },
+              "examples": []
+            },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "japonais",
+                  "m pl": "japonais",
+                  "f sl": "japonaise",
+                  "f pl": "japonaises"
+                },
+                "en": {
+                  "m sl": "Japanese",
+                  "m pl": "Japanese",
+                  "f sl": "Japanese",
+                  "f pl": "Japanese"
+                },
+                "ru": {
+                  "м ед": "японский",
+                  "м мн": "японские",
+                  "ж ед": "японская",
+                  "ж мн": "японские"
+                }
+              },
+              "examples": []
+            },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "chinois",
+                  "m pl": "chinois",
+                  "f sl": "chinoise",
+                  "f pl": "chinoises"
+                },
+                "en": {
+                  "m sl": "Chinese",
+                  "m pl": "Chinese",
+                  "f sl": "Chinese",
+                  "f pl": "Chinese"
+                },
+                "ru": {
+                  "м ед": "китайский",
+                  "м мн": "китайские",
+                  "ж ед": "китайская",
+                  "ж мн": "китайские"
+                }
+              },
+              "examples": []
+            },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "polonais",
+                  "m pl": "polonais",
+                  "f sl": "polonaise",
+                  "f pl": "polonaises"
+                },
+                "en": {
+                  "m sl": "Polish",
+                  "m pl": "Polish",
+                  "f sl": "Polish",
+                  "f pl": "Polish"
+                },
+                "ru": {
+                  "м ед": "польский",
+                  "м мн": "польские",
+                  "ж ед": "польская",
+                  "ж мн": "польские"
+                }
+              },
+              "examples": []
+            },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "russe",
+                  "m pl": "russes",
+                  "f sl": "russe",
+                  "f pl": "russes"
+                },
+                "en": {
+                  "m sl": "Russian",
+                  "m pl": "Russian",
+                  "f sl": "Russian",
+                  "f pl": "Russian"
+                },
+                "ru": {
+                  "м ед": "русский",
+                  "м мн": "русские",
+                  "ж ед": "русская",
+                  "ж мн": "русские"
+                }
+              },
+              "examples": [
+                {
+                  "fr": "montagnes russes",
+                  "en": "roller coaster",
+                  "ru": "американские горки"
+                }
+              ]
+            },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "ukrainien",
+                  "m pl": "ukrainiens",
+                  "f sl": "ukrainienne",
+                  "f pl": "ukrainiennes"
+                },
+                "en": {
+                  "m sl": "Ukrainian",
+                  "m pl": "Ukrainian",
+                  "f sl": "Ukrainian",
+                  "f pl": "Ukrainian"
+                },
+                "ru": {
+                  "м ед": "украинский",
+                  "м мн": "украинские",
+                  "ж ед": "украинская",
+                  "ж мн": "украинские"
+                }
+              },
+              "examples": []
+            }
+          ]
+        },
+        {
+          "name": {
+            "fr": "Les autres",
+            "en": "Other",
+            "ru": "Другие"
+          },
+          "words": [
             {
               "word": {
                 "fr": {
@@ -530,29 +651,6 @@
             {
               "word": {
                 "fr": {
-                  "m sl": "bas",
-                  "m pl": "bas",
-                  "f sl": "basse",
-                  "f pl": "basses"
-                },
-                "en": {
-                  "m sl": "low",
-                  "m pl": "low",
-                  "f sl": "low",
-                  "f pl": "low"
-                },
-                "ru": {
-                  "м ед": "низкий",
-                  "м мн": "низкие",
-                  "ж ед": "низкая",
-                  "ж мн": "низкие"
-                }
-              },
-              "examples": []
-            },
-            {
-              "word": {
-                "fr": {
                   "m sl": "haut",
                   "m pl": "hauts",
                   "f sl": "haute",
@@ -572,16 +670,7 @@
                 }
               },
               "examples": []
-            }
-          ]
-        },
-        {
-          "name": {
-            "fr": "Propensions",
-            "en": "Propensities",
-            "ru": "Пристрастия"
-          },
-          "words": [
+            },
             {
               "word": {
                 "fr": {
@@ -624,52 +713,6 @@
                   "м мн": "скверные, жестокие",
                   "ж ед": "скверная, жестокая",
                   "ж мн": "скверные, жестокие"
-                }
-              },
-              "examples": []
-            },
-            {
-              "word": {
-                "fr": {
-                  "m sl": "beau/bel",
-                  "m pl": "beaux",
-                  "f sl": "belle",
-                  "f pl": "belles"
-                },
-                "en": {
-                  "m sl": "beautiful, nice",
-                  "m pl": "beautiful, nice",
-                  "f sl": "beautiful, nice",
-                  "f pl": "beautiful, nice"
-                },
-                "ru": {
-                  "м ед": "прекрасный, хороший",
-                  "м мн": "прекрасные, хорошие",
-                  "ж ед": "прекрасная, хорошая",
-                  "ж мн": "прекрасные, хорошие"
-                }
-              },
-              "examples": []
-            },
-            {
-              "word": {
-                "fr": {
-                  "m sl": "joli",
-                  "m pl": "jolis",
-                  "f sl": "jolie",
-                  "f pl": "jolies"
-                },
-                "en": {
-                  "m sl": "nice, pretty",
-                  "m pl": "nice, pretty",
-                  "f sl": "nice, pretty",
-                  "f pl": "nice, pretty"
-                },
-                "ru": {
-                  "м ед": "красивый, симпатичный",
-                  "м мн": "красивые, симпатичные",
-                  "ж ед": "красивая, симпатичная",
-                  "ж мн": "красивые, симпатичные"
                 }
               },
               "examples": []
@@ -880,16 +923,7 @@
                 }
               },
               "examples": []
-            }
-          ]
-        },
-        {
-          "name": {
-            "fr": "Physique",
-            "en": "Physical",
-            "ru": "Физические"
-          },
-          "words": [
+            },
             {
               "word": {
                 "fr": {
@@ -909,29 +943,6 @@
                   "м мн": "холодные",
                   "ж ед": "холодная",
                   "ж мн": "холодные"
-                }
-              },
-              "examples": []
-            },
-            {
-              "word": {
-                "fr": {
-                  "m sl": "chaud",
-                  "m pl": "chauds",
-                  "f sl": "chaude",
-                  "f pl": "chaudes"
-                },
-                "en": {
-                  "m sl": "hot, warm",
-                  "m pl": "hot, warm",
-                  "f sl": "hot, warm",
-                  "f pl": "hot, warm"
-                },
-                "ru": {
-                  "м ед": "теплый, горячий",
-                  "м мн": "теплые, горячие",
-                  "ж ед": "теплая, горячая",
-                  "ж мн": "теплые, горячие"
                 }
               },
               "examples": []
@@ -1142,16 +1153,7 @@
                 }
               },
               "examples": []
-            }
-          ]
-        },
-        {
-          "name": {
-            "fr": "Vitesse",
-            "en": "Speed",
-            "ru": "Скорость"
-          },
-          "words": [
+            },
             {
               "word": {
                 "fr": {
@@ -1194,61 +1196,6 @@
                   "м мн": "медленные",
                   "ж ед": "медленная",
                   "ж мн": "медленные"
-                }
-              },
-              "examples": []
-            }
-          ]
-        },
-        {
-          "name": {
-            "fr": "Valeur",
-            "en": "Value",
-            "ru": "Ценность"
-          },
-          "words": [
-            {
-              "word": {
-                "fr": {
-                  "m sl": "bon",
-                  "m pl": "bons",
-                  "f sl": "bonne",
-                  "f pl": "bonnes"
-                },
-                "en": {
-                  "m sl": "good, proper, correct",
-                  "m pl": "good, proper, correct",
-                  "f sl": "good, proper, correct",
-                  "f pl": "good, proper, correct"
-                },
-                "ru": {
-                  "м ед": "хороший",
-                  "м мн": "хорошие",
-                  "ж ед": "хорошая",
-                  "ж мн": "хорошие"
-                }
-              },
-              "examples": []
-            },
-            {
-              "word": {
-                "fr": {
-                  "m sl": "mauvais",
-                  "m pl": "mauvais",
-                  "f sl": "mauvaise",
-                  "f pl": "mauvaises"
-                },
-                "en": {
-                  "m sl": "bad, wrong",
-                  "m pl": "bad, wrong",
-                  "f sl": "bad, wrong",
-                  "f pl": "bad, wrong"
-                },
-                "ru": {
-                  "м ед": "плохой",
-                  "м мн": "плохие",
-                  "ж ед": "плохая",
-                  "ж мн": "плохие"
                 }
               },
               "examples": []
@@ -1321,16 +1268,7 @@
                 }
               },
               "examples": []
-            }
-          ]
-        },
-        {
-          "name": {
-            "fr": "Rang",
-            "en": "Rank",
-            "ru": "Ранг"
-          },
-          "words": [
+            },
             {
               "word": {
                 "fr": {
@@ -1357,29 +1295,6 @@
             {
               "word": {
                 "fr": {
-                  "m sl": "dernier",
-                  "m pl": "derniers",
-                  "f sl": "dernière",
-                  "f pl": "dernières"
-                },
-                "en": {
-                  "m sl": "last, final, past",
-                  "m pl": "last, final, past",
-                  "f sl": "last, final, past",
-                  "f pl": "last, final, past"
-                },
-                "ru": {
-                  "м ед": "последний, прошлый",
-                  "м мн": "последние, прошлые",
-                  "ж ед": "последняя, прошлая",
-                  "ж мн": "последние, прошлые"
-                }
-              },
-              "examples": []
-            },
-            {
-              "word": {
-                "fr": {
                   "m sl": "prochain",
                   "m pl": "prochains",
                   "f sl": "prochaine",
@@ -1396,6 +1311,365 @@
                   "м мн": "следующие, грядущие",
                   "ж ед": "следующая, грядущая",
                   "ж мн": "следующие, грядущие"
+                }
+              },
+              "examples": []
+            },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "rond",
+                  "m pl": "ronds",
+                  "f sl": "ronde",
+                  "f pl": "rondes"
+                },
+                "en": {
+                  "m sl": "round",
+                  "m pl": "round",
+                  "f sl": "round",
+                  "f pl": "round"
+                },
+                "ru": {
+                  "м ед": "круглый",
+                  "м мн": "круглые",
+                  "ж ед": "круглая",
+                  "ж мн": "круглые"
+                }
+              },
+              "examples": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": {
+        "fr": "Avant le nom",
+        "en": "Before the noun",
+        "ru": "Перед существительным"
+      },
+      "groups": [
+        {
+          "words": [
+            {
+              "word": {
+                "fr": {
+                  "m sl": "beau/bel",
+                  "m pl": "beaux",
+                  "f sl": "belle",
+                  "f pl": "belles"
+                },
+                "en": {
+                  "m sl": "beautiful, nice",
+                  "m pl": "beautiful, nice",
+                  "f sl": "beautiful, nice",
+                  "f pl": "beautiful, nice"
+                },
+                "ru": {
+                  "м ед": "прекрасный, хороший",
+                  "м мн": "прекрасные, хорошие",
+                  "ж ед": "прекрасная, хорошая",
+                  "ж мн": "прекрасные, хорошие"
+                }
+              },
+              "examples": [
+                {
+                  "fr": "Merci pour ce <strong>beau</strong> cadeau.",
+                  "en": "Thank you for this beautiful gift.",
+                  "ru": "Спасибо за этот прекрасный подарок."
+                },
+                {
+                  "fr": "Voici un <strong>bel</strong> homme!",
+                  "en": "Here is a handsome man!",
+                  "ru": "Вот красивый мужчина!"
+                },
+                {
+                  "fr": "C'est une <strong>belle</strong> table.",
+                  "en": "It is a beautiful table.",
+                  "ru": "Это красивый стол."
+                },
+                {
+                  "fr": "Quelle <strong>belle</strong> femme!",
+                  "en": "What a beautiful woman!",
+                  "ru": "Какая красивая женщина!"
+                },
+                {
+                  "fr": "Ils ont de <strong>beaux</strong> enfants.",
+                  "en": "They have beautiful children.",
+                  "ru": "У них красивые дети."
+                },
+                {
+                  "fr": "Voici de <strong>belles</strong> pommes.",
+                  "en": "Here are beautiful apples.",
+                  "ru": "Вот красивые яблоки."
+                }
+              ]
+            },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "nouveau/nouvel",
+                  "m pl": "nouveaux",
+                  "f sl": "nouvelle",
+                  "f pl": "nouvelles"
+                },
+                "en": {
+                  "m sl": "new",
+                  "m pl": "new",
+                  "f sl": "new",
+                  "f pl": "new"
+                },
+                "ru": {
+                  "м ед": "новый",
+                  "м мн": "новые",
+                  "ж ед": "новая",
+                  "ж мн": "новые"
+                }
+              },
+              "examples": [
+                {
+                  "fr": "Voice le <strong>nouveau</strong> chef.",
+                  "en": "This is the new chef.",
+                  "ru": "Вот новый повар."
+                },
+                {
+                  "fr": "J'aime mon <strong>nouvel</strong> ordinateur.",
+                  "en": "I like my new computer.",
+                  "ru": "Мне нравится мой новый компьютер."
+                },
+                {
+                  "fr": "Elle a achète une <strong>nouvelle</strong> voiture.",
+                  "en": "She bought a new car.",
+                  "ru": "Она купила новую машину."
+                },
+                {
+                  "fr": "C'est la <strong>nouvelle</strong> copine de mon frère.",
+                  "en": "It's my brother's new girlfriend.",
+                  "ru": "Это новая девушка моего брата."
+                },
+                {
+                  "fr": "Encore de <strong>nouveaux</strong> problèmes!",
+                  "en": "Again new problems!",
+                  "ru": "Опять новые проблемы!"
+                },
+                {
+                  "fr": "Ils veulent de <strong>nouvelles</strong> explications.",
+                  "en": "They want new explanations.",
+                  "ru": "Они хотят новых объяснений."
+                }
+              ]
+            },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "jeune",
+                  "m pl": "jeunes",
+                  "f sl": "jeune",
+                  "f pl": "jeunes"
+                },
+                "en": {
+                  "m sl": "young",
+                  "m pl": "young",
+                  "f sl": "young",
+                  "f pl": "young"
+                },
+                "ru": {
+                  "м ед": "молодой",
+                  "м мн": "молодые",
+                  "ж ед": "молодая",
+                  "ж мн": "молодые"
+                }
+              },
+              "examples": []
+            },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "vieux/vieil",
+                  "m pl": "vieux",
+                  "f sl": "vieille",
+                  "f pl": "vieilles"
+                },
+                "en": {
+                  "m sl": "old",
+                  "m pl": "old",
+                  "f sl": "old",
+                  "f pl": "old"
+                },
+                "ru": {
+                  "м ед": "старый",
+                  "м мн": "старые",
+                  "ж ед": "старая",
+                  "ж мн": "старые"
+                }
+              },
+              "examples": [
+                {
+                  "fr": "Il a un <strong>vieux</strong> chien.",
+                  "en": "He has an old dog.",
+                  "ru": "У него старая собака."
+                },
+                {
+                  "fr": "C'est un <strong>viel</strong> arbre.",
+                  "en": "It's an old tree.",
+                  "ru": "Это старое дерево."
+                },
+                {
+                  "fr": "J'ai une très <strong>vieille</strong> voiture.",
+                  "en": "I have a very old car.",
+                  "ru": "У меня очень старая машина."
+                },
+                {
+                  "fr": "C'est une <strong>vieille</strong> table.",
+                  "en": "It's an old table.",
+                  "ru": "Это старый стол."
+                },
+                {
+                  "fr": "Voici de <strong>vieux</strong> journaux.",
+                  "en": "Here are some old newspapers.",
+                  "ru": "Вот несколько старых газет."
+                },
+                {
+                  "fr": "J'aime les <strong>vieilles</strong> maisons.",
+                  "en": "I like old houses.",
+                  "ru": "Мне нравятся старые дома."
+                }
+              ]
+            },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "petit",
+                  "m pl": "petits",
+                  "f sl": "petite",
+                  "f pl": "petites"
+                },
+                "en": {
+                  "m sl": "small, little, short",
+                  "m pl": "small, little, short",
+                  "f sl": "small, little, short",
+                  "f pl": "small, little, short"
+                },
+                "ru": {
+                  "м ед": "маленький",
+                  "м мн": "маленькие",
+                  "ж ед": "маленькая",
+                  "ж мн": "маленькие"
+                }
+              },
+              "examples": []
+            },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "grand",
+                  "m pl": "grands",
+                  "f sl": "grande",
+                  "f pl": "grandes"
+                },
+                "en": {
+                  "m sl": "large, great, grand, tall",
+                  "m pl": "large, great, grand, tall",
+                  "f sl": "large, great, grand, tall",
+                  "f pl": "large, great, grand, tall"
+                },
+                "ru": {
+                  "м ед": "большой",
+                  "м мн": "большие",
+                  "ж ед": "большая",
+                  "ж мн": "большие"
+                }
+              },
+              "examples": []
+            },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "gros",
+                  "m pl": "gros",
+                  "f sl": "grosse",
+                  "f pl": "grosses"
+                },
+                "en": {
+                  "m sl": "large, bulk, fat",
+                  "m pl": "large, bulk, fat",
+                  "f sl": "large, bulk, fat",
+                  "f pl": "large, bulk, fat"
+                },
+                "ru": {
+                  "м ед": "большой, толстый",
+                  "м мн": "большие, толстые",
+                  "ж ед": "большая, толстая",
+                  "ж мн": "большие, толстые"
+                }
+              },
+              "examples": []
+            },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "bon",
+                  "m pl": "bons",
+                  "f sl": "bonne",
+                  "f pl": "bonnes"
+                },
+                "en": {
+                  "m sl": "good, proper, correct",
+                  "m pl": "good, proper, correct",
+                  "f sl": "good, proper, correct",
+                  "f pl": "good, proper, correct"
+                },
+                "ru": {
+                  "м ед": "хороший",
+                  "м мн": "хорошие",
+                  "ж ед": "хорошая",
+                  "ж мн": "хорошие"
+                }
+              },
+              "examples": []
+            },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "mauvais",
+                  "m pl": "mauvais",
+                  "f sl": "mauvaise",
+                  "f pl": "mauvaises"
+                },
+                "en": {
+                  "m sl": "bad, wrong",
+                  "m pl": "bad, wrong",
+                  "f sl": "bad, wrong",
+                  "f pl": "bad, wrong"
+                },
+                "ru": {
+                  "м ед": "плохой",
+                  "м мн": "плохие",
+                  "ж ед": "плохая",
+                  "ж мн": "плохие"
+                }
+              },
+              "examples": []
+            },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "joli",
+                  "m pl": "jolis",
+                  "f sl": "jolie",
+                  "f pl": "jolies"
+                },
+                "en": {
+                  "m sl": "nice, pretty",
+                  "m pl": "nice, pretty",
+                  "f sl": "nice, pretty",
+                  "f pl": "nice, pretty"
+                },
+                "ru": {
+                  "м ед": "красивый, симпатичный",
+                  "м мн": "красивые, симпатичные",
+                  "ж ед": "красивая, симпатичная",
+                  "ж мн": "красивые, симпатичные"
                 }
               },
               "examples": []
@@ -1429,19 +1703,537 @@
     },
     {
       "name": {
-        "fr": "Avant le nom",
-        "en": "Before the noun",
-        "ru": "Перед существительным"
-      },
-      "groups": []
-    },
-    {
-      "name": {
         "fr": "Avant et après le nom",
         "en": "Both before and after the noun",
         "ru": "И до, и после существительного"
       },
-      "groups": []
+      "groups": [
+        {
+          "name": {
+            "fr": "Ne changent pas le sens",
+            "en": "Don't change the meaning",
+            "ru": "Не меняют значение"
+          },
+          "words": [
+            {
+              "word": {
+                "fr": {
+                  "m sl": "court",
+                  "m pl": "courts",
+                  "f sl": "courte",
+                  "f pl": "courtes"
+                },
+                "en": {
+                  "m sl": "short, brief",
+                  "m pl": "short, brief",
+                  "f sl": "short, brief",
+                  "f pl": "short, brief"
+                },
+                "ru": {
+                  "м ед": "короткий, краткий",
+                  "м мн": "короткие, краткие",
+                  "ж ед": "короткая, краткая",
+                  "ж мн": "короткие, краткие"
+                }
+              },
+              "examples": [
+                {
+                  "fr": "<strong>court</strong> texte",
+                  "en": "short text",
+                  "ru": "краткий текст"
+                },
+                {
+                  "fr": "jeu <strong>court</strong>",
+                  "en": "short game",
+                  "ru": "короткая игра"
+                },
+                {
+                  "fr": "pour une <strong>courte</strong> période",
+                  "en": "for a short time",
+                  "ru": "на краткий период"
+                },
+                {
+                  "fr": "des phrases <strong>courtes</strong>",
+                  "en": "short phrases",
+                  "ru": "короткие фразы"
+                }
+              ]
+            },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "horrible",
+                  "m pl": "horribles",
+                  "f sl": "horrible",
+                  "f pl": "horribles"
+                },
+                "en": {
+                  "m sl": "horrible, awful",
+                  "m pl": "horrible, awful",
+                  "f sl": "horrible, awful",
+                  "f pl": "horrible, awful"
+                },
+                "ru": {
+                  "м ед": "страшный, ужасный",
+                  "м мн": "страшные, ужасные",
+                  "ж ед": "страшная, ужасная",
+                  "ж мн": "страшные, ужасные"
+                }
+              },
+              "examples": [
+                {
+                  "fr": "Le dormeur s'est réveillé d'un cauchemar <strong>horrible</strong>.",
+                  "en": "The sleeper woke up from a horrific nightmare.",
+                  "ru": "Спящий проснулся от ужасного кошмара."
+                },
+                {
+                  "fr": "J'ai fait un <strong>horrible</strong> cauchemar.",
+                  "en": "I had a terrible nightmare.",
+                  "ru": "Мне приснился страшный сон."
+                },
+                {
+                  "fr": "Le fromage dégageait une odeur <strong>horrible</strong>.",
+                  "en": "The cheese had an awful smell.",
+                  "ru": "Сыр пах ужасно."
+                }
+              ]
+            }            
+          ]
+        },
+        {
+          "name": {
+            "fr": "Changent le sens",
+            "en": "Change the meaning",
+            "ru": "Меняют значение"
+          },
+          "words": [
+            {
+              "word": {
+                "fr": {
+                  "m sl": "amer",
+                  "m pl": "amers",
+                  "f sl": "amère",
+                  "f pl": "amères"
+                },
+                "en": {
+                  "m sl": "bitter",
+                  "m pl": "bitter",
+                  "f sl": "bitter",
+                  "f pl": "bitter"
+                },
+                "ru": {
+                  "м ед": "горький",
+                  "м мн": "горькие",
+                  "ж ед": "горькая",
+                  "ж мн": "горькие"
+                }
+              },
+              "examples": [
+                {
+                  "fr": "des pommes <strong>amères</strong>",
+                  "en": "bitter apples",
+                  "ru": "горькие яблоки"
+                },
+                {
+                  "fr": "d'<strong>amers</strong> reproches",
+                  "en": "bitter reproaches",
+                  "ru": "горькие упреки"
+                }
+              ]
+            },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "ancien",
+                  "m pl": "anciens",
+                  "f sl": "ancienne",
+                  "f pl": "anciennes"
+                },
+                "en": {
+                  "m sl": "former, old",
+                  "m pl": "former, old",
+                  "f sl": "former, old",
+                  "f pl": "former, old"
+                },
+                "ru": {
+                  "м ед": "бывший, прежний, старый",
+                  "м мн": "бывшие, прежние, старые",
+                  "ж ед": "бывшая, прежняя, старая",
+                  "ж мн": "бывшие, прежние, старые"
+                }
+              },
+              "examples": [
+                {
+                  "fr": "mon <strong>ancienne</strong> maison<br/>(aujourd'hui ce n'est plus ma maison)",
+                  "en": "my old house<br/>(today it's no longer my house)",
+                  "ru": "мой прежний дом<br/>(сегодня это больше не мой дом)"
+                },
+                {
+                  "fr": "une maison <strong>ancienne</strong><br/>(une vieille maison, qui a de la valeur)",
+                  "en": "an old house<br/>(an old house, which has value)",
+                  "ru": "старый дом<br/>(старый дом, который имеет ценность)"
+                },
+                {
+                  "fr": "Ma sœur a reconnu son <strong>ancien</strong> professeur à la télévision.",
+                  "en": "My sister recognised her former teacher on television.",
+                  "ru": "Моя сестра узнала своего бывшего учителя по телевидению."
+                },
+                {
+                  "fr": "J'ai décoré ma maison avec des meubles <strong>anciens</strong>.",
+                  "en": "I decorated my house with vintage furniture.",
+                  "ru": "Я украсил свой дом старинной мебелью."
+                }
+              ]
+            },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "bas",
+                  "m pl": "bas",
+                  "f sl": "basse",
+                  "f pl": "basses"
+                },
+                "en": {
+                  "m sl": "low",
+                  "m pl": "low",
+                  "f sl": "low",
+                  "f pl": "low"
+                },
+                "ru": {
+                  "м ед": "низкий",
+                  "м мн": "низкие",
+                  "ж ед": "низкая",
+                  "ж мн": "низкие"
+                }
+              },
+              "examples": [
+                {
+                  "fr": "les enfants en <strong>bas</strong> âge",
+                  "en": "young children",
+                  "ru": "малолетние дети"
+                },
+                {
+                  "fr": "dans la <strong>basse</strong> ville",
+                  "en": "in the lower town",
+                  "ru": "в нижнем городе"
+                },
+                {
+                  "fr": "une table <strong>basse</strong>",
+                  "en": "a coffee table",
+                  "ru": "низкий столик"
+                },
+                {
+                  "fr": "à voix <strong>basse</strong>",
+                  "en": "in hushed voice",
+                  "ru": "тихим голосом"
+                }
+              ]
+            },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "brave",
+                  "m pl": "braves",
+                  "f sl": "brave",
+                  "f pl": "braves"
+                },
+                "en": {
+                  "m sl": "decent, brave",
+                  "m pl": "decent, brave",
+                  "f sl": "decent, brave",
+                  "f pl": "decent, brave"
+                },
+                "ru": {
+                  "м ед": "порядочный, смелый",
+                  "м мн": "порядочные, смелые",
+                  "ж ед": "порядочная, смелая",
+                  "ж мн": "порядочные, смелые"
+                }
+              },
+              "examples": [
+                {
+                  "fr": "un <strong>brave</strong> homme",
+                  "en": "a decent man",
+                  "ru": "порядочный человек"
+                },
+                {
+                  "fr": "un homme <strong>brave</strong>",
+                  "en": "a brave man",
+                  "ru": "смелый человек"
+                }
+              ]
+            },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "certain",
+                  "m pl": "certains",
+                  "f sl": "certaine",
+                  "f pl": "certaines"
+                },
+                "en": {
+                  "m sl": "certain",
+                  "m pl": "certain",
+                  "f sl": "certain",
+                  "f pl": "certain"
+                },
+                "ru": {
+                  "м ед": "определённый",
+                  "м мн": "определённые",
+                  "ж ед": "определённая",
+                  "ж мн": "определённые"
+                }
+              },
+              "examples": [
+                {
+                  "fr": "un <strong>certain</strong> temps",
+                  "en": "some time",
+                  "ru": "некоторое время"
+                },
+                {
+                  "fr": "un fait <strong>certain</strong>",
+                  "en": "a certain fact",
+                  "ru": "определенный факт"
+                }
+              ]
+            },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "chaud",
+                  "m pl": "chauds",
+                  "f sl": "chaude",
+                  "f pl": "chaudes"
+                },
+                "en": {
+                  "m sl": "warm, hot",
+                  "m pl": "warm, hot",
+                  "f sl": "warm, hot",
+                  "f pl": "warm, hot"
+                },
+                "ru": {
+                  "м ед": "теплый, горячий",
+                  "м мн": "теплые, горячие",
+                  "ж ед": "теплая, горячая",
+                  "ж мн": "теплые, горячие"
+                }
+              },
+              "examples": [
+                {
+                  "fr": "un <strong>chaud</strong> accueil",
+                  "en": "a warm welcome",
+                  "ru": "теплый приём"
+                },
+                {
+                  "fr": "un plat <strong>chaud</strong>",
+                  "en": "a hot meal",
+                  "ru": "горячее блюдо"
+                }
+              ]
+            },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "cher",
+                  "m pl": "chers",
+                  "f sl": "chère",
+                  "f pl": "chères"
+                },
+                "en": {
+                  "m sl": "dear, expensive",
+                  "m pl": "dear, expensive",
+                  "f sl": "dear, expensive",
+                  "f pl": "dear, expensive"
+                },
+                "ru": {
+                  "м ед": "дорогой",
+                  "м мн": "дорогие",
+                  "ж ед": "дорогая",
+                  "ж мн": "дорогие"
+                }
+              },
+              "examples": [
+                {
+                  "fr": "<strong>cher</strong> ami<br/>(ami pour qui j'ai de l'affection)",
+                  "en": "dear friend<br/>(friend for whom I have affection)",
+                  "ru": "дорогой друг<br/>(друг, к которому у меня есть привязанность)"
+                },
+                {
+                  "fr": "un livre <strong>cher</strong><br/>(un livre dont le prix est élevé)",
+                  "en": "an expensive book<br/>(a high priced book)",
+                  "ru": "дорогая книга<br/>(книга с высокой ценой)"
+                }
+              ]
+            },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "curieux",
+                  "m pl": "curieux",
+                  "f sl": "curieuse",
+                  "f pl": "curieuses"
+                },
+                "en": {
+                  "m sl": "curious, odd",
+                  "m pl": "curious, odd",
+                  "f sl": "curious, odd",
+                  "f pl": "curious, odd"
+                },
+                "ru": {
+                  "м ед": "любопытный, странный",
+                  "м мн": "любопытные, странные",
+                  "ж ед": "любопытная, странная",
+                  "ж мн": "любопытные, странные"
+                }
+              },
+              "examples": [
+                {
+                  "fr": "un garçon <strong>curieux</strong>",
+                  "en": "a curious boy",
+                  "ru": "любопытный мальчик"
+                },
+                {
+                  "fr": "un esprit <strong>curieux</strong>",
+                  "en": "a curious mind",
+                  "ru": "любознательный ум"
+                },
+                {
+                  "fr": "une <strong>curieuse</strong> fille",
+                  "en": "a strange girl",
+                  "ru": "странная девочка"
+                },
+                {
+                  "fr": "une <strong>curieuse</strong> nouvelle",
+                  "en": "amazing news",
+                  "ru": "удивительная новость"
+                }
+              ]
+            },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "dernier",
+                  "m pl": "derniers",
+                  "f sl": "dernière",
+                  "f pl": "dernières"
+                },
+                "en": {
+                  "m sl": "last, past",
+                  "m pl": "last, past",
+                  "f sl": "last, past",
+                  "f pl": "last, past"
+                },
+                "ru": {
+                  "м ед": "последний, прошлый",
+                  "м мн": "последние, прошлые",
+                  "ж ед": "последняя, прошлая",
+                  "ж мн": "последние, прошлые"
+                }
+              },
+              "examples": [
+                {
+                  "fr": "la <strong>dernière</strong> semaine<br/>(la dernière semaine du mois)",
+                  "en": "the last week<br/>(the last week of the month)",
+                  "ru": "последняя неделя<br/>(последняя неделя месяца)"
+                },
+                {
+                  "fr": "ces <strong>derniers</strong> temps",
+                  "en": "lately",
+                  "ru": "последнее время"
+                },
+                {
+                  "fr": "la semaine <strong>dernière</strong><br/>(la semaine dernière j'étais en vacances)",
+                  "en": "last week<br/>(last week I was on vacation)",
+                  "ru": "прошлая неделя<br/>(на прошлой неделе я был в отпуске)"
+                },
+                {
+                  "fr": "l'année <strong>dernière</strong>",
+                  "en": "last year",
+                  "ru": "в прошлом году"
+                }
+              ]
+            },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "drôle",
+                  "m pl": "drôles",
+                  "f sl": "drôle",
+                  "f pl": "drôles"
+                },
+                "en": {
+                  "m sl": "funny, weird",
+                  "m pl": "funny, weird",
+                  "f sl": "funny, weird",
+                  "f pl": "funny, weird"
+                },
+                "ru": {
+                  "м ед": "смешной, странный",
+                  "м мн": "смешные, странные",
+                  "ж ед": "смешная, странная",
+                  "ж мн": "смешные, странные"
+                }
+              },
+              "examples": [
+                {
+                  "fr": "une histoire <strong>drôle</strong><br/>(une histoire amusante)",
+                  "en": "a funny story",
+                  "ru": "смешная история"
+                },
+                {
+                  "fr": "une <strong>drôle</strong> d'histoire<br/>(une histoire bizarre)",
+                  "en": "a weird story",
+                  "ru": "странная история"
+                }
+              ]
+            },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "propre",
+                  "m pl": "propres",
+                  "f sl": "propre",
+                  "f pl": "propres"
+                },
+                "en": {
+                  "m sl": "own, clean",
+                  "m pl": "own, clean",
+                  "f sl": "own, clean",
+                  "f pl": "own, clean"
+                },
+                "ru": {
+                  "м ед": "собственный, чистый",
+                  "м мн": "собственные, чистые",
+                  "ж ед": "собственная, чистая",
+                  "ж мн": "собственные, чистые"
+                }
+              },
+              "examples": [
+                {
+                  "fr": "ma <strong>propre</strong> chambre (la mienne)",
+                  "en": "my own room (mine)",
+                  "ru": "моя собственная комната (моя)"
+                },
+                {
+                  "fr": "ma chambre <strong>propre</strong> (qui n'est pas sale)",
+                  "en": "my clean room (which is not dirty)",
+                  "ru": "моя чистая комната (которая не грязная)"
+                },
+                {
+                  "fr": "L'entrepreneur dirige sa <strong>propre</strong> entreprise.",
+                  "en": "The entrepreneur runs his own company.",
+                  "ru": "Предприниматель руководит собственной компанией."
+                },
+                {
+                  "fr": "Le sol était impeccablement <strong>propre</strong>.",
+                  "en": "The floor was spotlessly clean.",
+                  "ru": "Пол был безукоризненно чистым."
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "comparison": {

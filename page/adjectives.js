@@ -7,9 +7,35 @@ collapse.on('hide.bs.collapse', (event) => {
   $(event.target).parent().find('i.fas').removeClass('fa-chevron-circle-up').addClass('fa-chevron-circle-down');
 });
 
+// Modal dialog handler
+const modal = $('#showExamplesModal');
+modal.on('show.bs.modal', function (event) {
+  const data = event.relatedTarget;
+  const modal = $(this);
+  modal.find('.modal-title').text(data.word);
+
+  const exampleContainer = modal.find('#example-container');
+  const exampleTemplate = modal.find('#example-template');
+
+  // Clear container
+  exampleContainer.children().remove(':not(.d-none)');
+  
+  data.examples.forEach(item => {
+    let example = exampleTemplate.clone(true);
+    example.children().eq(0).html(item.fr);
+    example.children().eq(1).html(item[data.lang]);
+    example.removeClass('d-none');
+    example.appendTo(exampleContainer);
+  });
+});
+
+// Click handler
+function showExamples(event) {
+  modal.modal({}, event.data);
+}
+
 // Load data
-function loadData(lang)
-{
+function loadData(lang) {
   $.getJSON('page/adjectives.json', data => {
 
     const catContainer = $('#category-container');
@@ -34,13 +60,21 @@ function loadData(lang)
 
       $.each(category.groups, (index, item) => {
         let group = groupTemplate.clone(true);
-        let groupName = group.find('#group-name');
-        groupName.text(item.name.fr + ' ');
-        groupName.attr('title', item.name[lang]);
-        groupName.tooltip();
+        if (item.name) {
+          let groupName = group.find('#group-name');
+          groupName.text(item.name.fr + ' ');
+          groupName.attr('title', item.name[lang]);
+          groupName.tooltip();
+        }
+        else {
+          group.height(0); // TODO: for some reason empty div gets 8px of height.
+        }
         group.removeClass('d-none');
         group.appendTo(cardContainer);
 
+        item.words.sort((a, b) => {
+          return Object.values(a.word.fr)[0].localeCompare(Object.values(b.word.fr)[0]);
+        });
         $.each(item.words, (index, item) => {
           let card = cardTemplate.clone(true);
           if (item.color)
@@ -55,6 +89,16 @@ function loadData(lang)
             term.text(fr[i]);
             term.attr('title', `${values[i]} <span class='my-hint'>(${keys[i]})</span>`);
             term.tooltip();
+          }
+          if (item.examples && item.examples.length > 0)
+          {
+            const data = {
+              lang: lang,
+              word: fr[0],
+              examples: item.examples
+            };
+            card.addClass('my-clickable');
+            card.click(data, showExamples);
           }
           card.removeClass('d-none');
           card.appendTo(cardContainer);
