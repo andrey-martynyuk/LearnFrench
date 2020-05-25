@@ -90,8 +90,7 @@ function loadData(lang) {
             term.attr('title', `${values[i]} <span class='my-hint'>(${keys[i]})</span>`);
             term.tooltip();
           }
-          if (item.examples && item.examples.length > 0)
-          {
+          if (item.examples && item.examples.length > 0) {
             const data = {
               lang: lang,
               word: fr[0],
@@ -110,28 +109,51 @@ function loadData(lang) {
     });
 
     // Load section name
-    $('#comparison-name').text(data.comparison.name[lang]);
+    let sectionName = $('#comparison-name');
+    sectionName.text(data.comparison.name.fr + ' ');
+    sectionName.attr('title', data.comparison.name[lang]);
+    sectionName.tooltip();
 
     const cardContainer = $('#comparison-container');
-    const cardTemplate = $('#comparison-template');
+    const cardTemplate = cardContainer.find('#comparison-template');
+    const groupTemplate = cardContainer.find('#group-template');
 
     // Clear container
     cardContainer.children().remove(':not(.d-none)');
     
-    $.each(data.comparison.words, (index, item) => {        
-      let card = cardTemplate.clone(true);
-      const frKeys = Object.keys(item.word.fr);
-      const frValues = Object.values(item.word.fr);
-      const langKeys = Object.keys(item.word[lang]);
-      const langValues = Object.values(item.word[lang]);
-      for (let i = 0; i < frKeys.length; i++) {
-        let cell = card.find('td.my-cell' + i).children();
-        cell.html(`<span class='my-term'>${frKeys[i]}</span> ${frValues[i]}`);
-        cell.attr('title', `<span class='my-term'>${langKeys[i]}</span> ${langValues[i]}`);
-        cell.tooltip();
+    $.each(data.comparison.groups, (index, item) => {
+      let group = groupTemplate.clone(true);
+      if (item.name) {
+        let groupName = group.find('#group-name');
+        groupName.text(item.name.fr + ' ');
+        groupName.attr('title', item.name[lang]);
+        groupName.tooltip();
       }
-      card.removeClass('d-none');
-      card.appendTo(cardContainer);
+      group.removeClass('d-none');
+      group.appendTo(cardContainer);
+      
+      $.each(item.words, (index, item) => {        
+        let card = cardTemplate.clone(true);
+        const frValues = Object.values(item.word.fr);
+        const langValues = Object.values(item.word[lang]);
+        for (let i = 0; i < frValues.length; i++) {
+          let cell = card.find('td.my-cell' + i).children();
+          cell.html(`<span class='my-term'>${frValues[i]}</span>`);
+          cell.attr('title', `${langValues[i]}`);
+          cell.tooltip();
+        }
+        if (item.examples && item.examples.length > 0) {
+          const data = {
+            lang: lang,
+            word: item.title,
+            examples: item.examples
+          };
+          card.addClass('my-clickable');
+          card.click(data, showExamples);
+        }
+        card.removeClass('d-none');
+        card.appendTo(cardContainer);
+      });
     });
   });
 }
