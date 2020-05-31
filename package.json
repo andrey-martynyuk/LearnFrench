@@ -13,7 +13,7 @@
     "directory": "https://github.com/andrey-martynyuk/LearnFrench.git"
   },
   "dependencies": {
-    "bootstrap": "^4.4.1",
-    "jquery": "^3.5.0"
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1"
   }
 }
