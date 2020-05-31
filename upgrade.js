@@ -7,41 +7,53 @@ if (args.length < 1)
   process.exit(9);
 }
 
+function upgrade(entry) {
+  const fr = entry.word.fr;
+  const title = (fr["m sl"] == fr["f sl"]) ? fr["m sl"] : fr["m sl"] + "/" + fr["f sl"];
+  if (entry.color)
+    return {
+    "color": entry.color,
+    "word": entry.word,
+    "title": entry.title ?? title,
+    "examples": entry.examples
+  };
+  return {
+    "word": entry.word,
+    "title": entry.title ?? title,
+    "examples": entry.examples
+  };
+}
+
 const path = args[0];
 fs.readFile(path, (err, content) => {
   if (err)
     throw err;
 
   const json = JSON.parse(content);
-
   const jsonNew = {};
-  jsonNew.categories = [
-    {
-      "name": {
-        "fr": "Après le nom",
-        "en": "After the noun",
-        "ru": "После существительного"
-      },
-      "groups": json.categories
-    },
-    {
-      "name": {
-        "fr": "Avant le nom",
-        "en": "Before the noun",
-        "ru": "Перед существительным"
-      },
-      "groups": []
-    },
-    {
-      "name": {
-        "fr": "Avant et après le nom",
-        "en": "Both before and after the noun",
-        "ru": "И до, и после существительного"
-      },
-      "groups": []
-    }
-  ];
+  jsonNew.categories = [];
   jsonNew.comparison = json.comparison;
+
+  json.categories.forEach(category => {
+    const categoryNew = {
+      "name": category.name,
+      "groups": []
+    };
+    category.groups.forEach(group => {
+      let newGroup = {
+        "name": null,
+        "words": []
+      };
+      if (group.name)
+        newGroup.name = group.name;
+      group.words.forEach(word => {
+        const newWord = upgrade(word);
+        newGroup.words.push(newWord);
+      });
+      categoryNew.groups.push(newGroup);
+    });
+    jsonNew.categories.push(categoryNew);
+  });
 
   const contentNew = JSON.stringify(jsonNew);
   fs.writeFile(path, contentNew, err => {

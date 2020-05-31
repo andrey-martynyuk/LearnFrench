@@ -13,6 +13,14 @@
             "skipFiles": [
                 "${workspaceFolder}/node_modules/",
             ]
-        }
+        },
+        {
+            "name": "Launch Node.js",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "program": "${file}",
+            "args": ["${workspaceFolder}\\page\\adjectives.json"]
+          }
     ]
 }
