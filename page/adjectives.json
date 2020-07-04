@@ -1181,54 +1181,6 @@
             {
               "word": {
                 "fr": {
-                  "m sl": "meilleur",
-                  "m pl": "meilleurs",
-                  "f sl": "meilleure",
-                  "f pl": "meilleures"
-                },
-                "en": {
-                  "m sl": "better",
-                  "m pl": "better",
-                  "f sl": "better",
-                  "f pl": "better"
-                },
-                "ru": {
-                  "м ед": "лучший",
-                  "м мн": "лучшие",
-                  "ж ед": "лучшая",
-                  "ж мн": "лучшие"
-                }
-              },
-              "title": "meilleur/meilleure",
-              "examples": []
-            },
-            {
-              "word": {
-                "fr": {
-                  "m sl": "pire",
-                  "m pl": "pires",
-                  "f sl": "pire",
-                  "f pl": "pires"
-                },
-                "en": {
-                  "m sl": "worse",
-                  "m pl": "worse",
-                  "f sl": "worse",
-                  "f pl": "worse"
-                },
-                "ru": {
-                  "м ед": "худший",
-                  "м мн": "худшие",
-                  "ж ед": "худшая",
-                  "ж мн": "худшие"
-                }
-              },
-              "title": "pire",
-              "examples": []
-            },
-            {
-              "word": {
-                "fr": {
                   "m sl": "ordinaire",
                   "m pl": "ordinaires",
                   "f sl": "ordinaire",
@@ -1296,6 +1248,54 @@
                 }
               },
               "title": "rond/ronde",
+              "examples": []
+            },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "gras",
+                  "m pl": "gras",
+                  "f sl": "grasse",
+                  "f pl": "grasses"
+                },
+                "en": {
+                  "m sl": "fat, bold",
+                  "m pl": "fat, bold",
+                  "f sl": "fat, bold",
+                  "f pl": "fat, bold"
+                },
+                "ru": {
+                  "м ед": "жирный",
+                  "м мн": "жирные",
+                  "ж ед": "жирная",
+                  "ж мн": "жирные"
+                }
+              },
+              "title": "gras/grasse",
+              "examples": []
+            },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "spécial",
+                  "m pl": "spéciaux",
+                  "f sl": "spéciale",
+                  "f pl": "spéciales"
+                },
+                "en": {
+                  "m sl": "special, particular",
+                  "m pl": "special, particular",
+                  "f sl": "special, particular",
+                  "f pl": "special, particular"
+                },
+                "ru": {
+                  "м ед": "специальный, особый",
+                  "м мн": "специальный, особый",
+                  "ж ед": "специальный, особый",
+                  "ж мн": "специальный, особый"
+                }
+              },
+              "title": "spécial/spéciale",
               "examples": []
             }
           ]
@@ -1740,6 +1740,126 @@
               },
               "title": "vilain/vilaine",
               "examples": []
+            },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "meilleur",
+                  "m pl": "meilleurs",
+                  "f sl": "meilleure",
+                  "f pl": "meilleures"
+                },
+                "en": {
+                  "m sl": "better",
+                  "m pl": "better",
+                  "f sl": "better",
+                  "f pl": "better"
+                },
+                "ru": {
+                  "м ед": "лучший",
+                  "м мн": "лучшие",
+                  "ж ед": "лучшая",
+                  "ж мн": "лучшие"
+                }
+              },
+              "title": "meilleur/meilleure",
+              "examples": []
+            },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "pire",
+                  "m pl": "pires",
+                  "f sl": "pire",
+                  "f pl": "pires"
+                },
+                "en": {
+                  "m sl": "worse",
+                  "m pl": "worse",
+                  "f sl": "worse",
+                  "f pl": "worse"
+                },
+                "ru": {
+                  "м ед": "худший",
+                  "м мн": "худшие",
+                  "ж ед": "худшая",
+                  "ж мн": "худшие"
+                }
+              },
+              "title": "pire",
+              "examples": []
+            },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "tel",
+                  "m pl": "tels",
+                  "f sl": "telle",
+                  "f pl": "telles"
+                },
+                "en": {
+                  "m sl": "such",
+                  "m pl": "such",
+                  "f sl": "such",
+                  "f pl": "such"
+                },
+                "ru": {
+                  "м ед": "такой",
+                  "м мн": "такие",
+                  "ж ед": "такая",
+                  "ж мн": "такие"
+                }
+              },
+              "title": "tel/telle",
+              "examples": []
+            },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "tout",
+                  "m pl": "tous",
+                  "f sl": "toute",
+                  "f pl": "toutes"
+                },
+                "en": {
+                  "m sl": "every, all",
+                  "m pl": "every, all",
+                  "f sl": "every, all",
+                  "f pl": "every, all"
+                },
+                "ru": {
+                  "м ед": "каждый",
+                  "м мн": "каждые",
+                  "ж ед": "каждая",
+                  "ж мн": "каждые"
+                }
+              },
+              "title": "tout/toute",
+              "examples": []
+            },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "pareil",
+                  "m pl": "pareils",
+                  "f sl": "pareille",
+                  "f pl": "pareilles"
+                },
+                "en": {
+                  "m sl": "same, similar",
+                  "m pl": "same, similar",
+                  "f sl": "same, similar",
+                  "f pl": "same, similar"
+                },
+                "ru": {
+                  "м ед": "похожий",
+                  "м мн": "похожие",
+                  "ж ед": "похожая",
+                  "ж мн": "похожие"
+                }
+              },
+              "title": "pareil/pareille",
+              "examples": []
             }
           ]
         }
@@ -2166,6 +2286,41 @@
                   "fr": "<strong>parfaite</strong> occasion",
                   "en": "<strong>ideal</strong> opportunity",
                   "ru": "<strong>идеальная</strong> возможность"
+                }
+              ]
+            },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "réel",
+                  "m pl": "réels",
+                  "f sl": "réelle",
+                  "f pl": "réelles"
+                },
+                "en": {
+                  "m sl": "real, actual, true",
+                  "m pl": "real, actual, true",
+                  "f sl": "real, actual, true",
+                  "f pl": "real, actual, true"
+                },
+                "ru": {
+                  "м ед": "реальный, настоящий",
+                  "м мн": "реальные, настоящие",
+                  "ж ед": "реальная, настоящая",
+                  "ж мн": "реальные, настоящие"
+                }
+              },
+              "title": "réel/réelle",
+              "examples": [
+                {
+                  "fr": "Les dragons n'existent pas dans le monde <strong>réel</strong>.",
+                  "en": "Dragons do not exist in the <strong>real</strong> world.",
+                  "ru": "Драконы не существуют в <strong>реальном</strong> мире."
+                },
+                {
+                  "fr": "La sédentarisation est devenue un <strong>réel</strong> problème de santé.",
+                  "en": "The sedentary lifestyle has become a <strong>real</strong> health problem.",
+                  "ru": "Сидячий образ жизни стал <strong>настоящей</strong> проблемой для здоровья."
                 }
               ]
             }
