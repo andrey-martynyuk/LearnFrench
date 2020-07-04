@@ -1,0 +1,650 @@
+{
+  "categories": [
+    {
+      "name": {
+        "fr": "Les verbes auxiliaires",
+        "en": "Auxiliary verbs",
+        "ru": "Вспомогательные глаголы"
+      },
+      "groups": [
+        {
+          "name": null,
+          "words": [
+            {
+              "title": {
+                "fr": "être",
+                "en": "to be",
+                "ru": "быть"
+              },
+              "color": "Cornsilk",
+              "word": {
+                "fr": {
+                  "je": "suis",
+                  "tu": "es",
+                  "il/elle": "est",
+                  "nous": "sommes",
+                  "vous": "êtes",
+                  "ils/elles": "sont"
+                },
+                "en": {
+                  "I": "am",
+                  "you": "are",
+                  "he/she": "is",
+                  "we": "are",
+                  "you​": "are",
+                  "they": "are"
+                },
+                "ru": {
+                  "я": "есть",
+                  "ты": "есть",
+                  "он/она": "есть",
+                  "мы": "есть",
+                  "вы": "есть",
+                  "они": "есть"
+                }
+              },
+              "examples": []
+            },
+            {
+              "title": {
+                "fr": "avoir",
+                "en": "to have",
+                "ru": "иметь"
+              },
+              "color": "Cornsilk",
+              "word": {
+                "fr": {
+                  "j'": "ai",
+                  "tu": "as",
+                  "il/elle": "a",
+                  "nous": "avons",
+                  "vous": "avez",
+                  "ils/elles": "ont"
+                },
+                "en": {
+                  "I": "have",
+                  "you": "have",
+                  "he/she": "has",
+                  "we": "have",
+                  "you​": "have",
+                  "they": "have"
+                },
+                "ru": {
+                  "я": "имею",
+                  "ты": "имеешь",
+                  "он/она": "имеет",
+                  "мы": "имеем",
+                  "вы": "имеете",
+                  "они": "имеют"
+                }
+              },
+              "examples": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": {
+        "fr": "1er groupe",
+        "en": "1st group",
+        "ru": "1ая группа"
+      },
+      "groups": [
+        {
+          "name": null,
+          "words": [
+            {
+              "title": {
+                "fr": "trouver",
+                "en": "to find",
+                "ru": "находить"
+              },
+              "word": {
+                "fr": {
+                  "je": "trouv<u>e</u>",
+                  "tu": "trouv<u>es</u>",
+                  "il/elle": "trouv<u>e</u>",
+                  "nous": "trouv<u>ons</u>",
+                  "vous": "trouv<u>ez</u>",
+                  "ils/elles": "trouv<u>ent</u>"
+                },
+                "en": {
+                  "I": "find",
+                  "you": "find",
+                  "he/she": "finds",
+                  "we": "find",
+                  "you​": "find",
+                  "they": "find"
+                },
+                "ru": {
+                  "я": "нахожу",
+                  "ты": "находишь",
+                  "он/она": "находит",
+                  "мы": "находим",
+                  "вы": "находите",
+                  "они": "находят"
+                }
+              },
+              "examples": []
+            },
+            {
+              "title": {
+                "fr": "aimer",
+                "en": "to like, to love",
+                "ru": "любить"
+              },
+              "word": {
+                "fr": {
+                  "j'": "aim<u>e</u>",
+                  "tu": "aim<u>es</u>",
+                  "il/elle": "aim<u>e</u>",
+                  "nous": "aim<u>ons</u>",
+                  "vous": "aim<u>ez</u>",
+                  "ils/elles": "aim<u>ent</u>"
+                },
+                "en": {
+                  "I": "like",
+                  "you": "like",
+                  "he/she": "likes",
+                  "we": "like",
+                  "you​": "like",
+                  "they": "like"
+                },
+                "ru": {
+                  "я": "люблю",
+                  "ты": "любишь",
+                  "он/она": "любит",
+                  "мы": "любим",
+                  "вы": "любите",
+                  "они": "любят"
+                }
+              },
+              "examples": []
+            },
+            {
+              "title": {
+                "fr": "habiter",
+                "en": "to live, to inhabit",
+                "ru": "жить"
+              },
+              "word": {
+                "fr": {
+                  "j'": "habit<u>e</u>",
+                  "tu": "habit<u>es</u>",
+                  "il/elle": "habit<u>e</u>",
+                  "nous": "habit<u>ons</u>",
+                  "vous": "habit<u>ez</u>",
+                  "ils/elles": "habit<u>ent</u>"
+                },
+                "en": {
+                  "I": "live",
+                  "you": "live",
+                  "he/she": "lives",
+                  "we": "live",
+                  "you​": "live",
+                  "they": "live"
+                },
+                "ru": {
+                  "я": "живу",
+                  "ты": "живёшь",
+                  "он/она": "живёт",
+                  "мы": "живём",
+                  "вы": "живёте",
+                  "они": "живут"
+                }
+              },
+              "examples": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": {
+        "fr": "2e groupe",
+        "en": "2nd group",
+        "ru": "2ая группа"
+      },
+      "groups": [
+        {
+          "name": null,
+          "words": [
+            {
+              "title": {
+                "fr": "finir",
+                "en": "to finish",
+                "ru": "заканчивать"
+              },
+              "word": {
+                "fr": {
+                  "je": "fini<u>s</u>",
+                  "tu": "fini<u>s</u>",
+                  "il/elle": "fini<u>t</u>",
+                  "nous": "fini<u>ssons</u>",
+                  "vous": "fini<u>ssez</u>",
+                  "ils/elles": "fini<u>ssent</u>"
+                },
+                "en": {
+                  "I": "finish",
+                  "you": "finish",
+                  "he/she": "finishes",
+                  "we": "finish",
+                  "you​": "finish",
+                  "they": "finish"
+                },
+                "ru": {
+                  "я": "заканчиваю",
+                  "ты": "заканчиваешь",
+                  "он/она": "заканчивает",
+                  "мы": "заканчиваем",
+                  "вы": "заканчиваете",
+                  "они": "заканчивают"
+                }
+              },
+              "examples": []
+            },
+            {
+              "title": {
+                "fr": "choisir",
+                "en": "to choose",
+                "ru": "выбирать"
+              },
+              "word": {
+                "fr": {
+                  "je": "choisi<u>s</u>",
+                  "tu": "choisi<u>s</u>",
+                  "il/elle": "choisi<u>t</u>",
+                  "nous": "choisi<u>ssons</u>",
+                  "vous": "choisi<u>ssez</u>",
+                  "ils/elles": "choisi<u>ssent</u>"
+                },
+                "en": {
+                  "I": "choose",
+                  "you": "choose",
+                  "he/she": "chooses",
+                  "we": "choose",
+                  "you​": "choose",
+                  "they": "choose"
+                },
+                "ru": {
+                  "я": "выбираю",
+                  "ты": "выбираешь",
+                  "он/она": "выбирает",
+                  "мы": "выбираем",
+                  "вы": "выбираете",
+                  "они": "выбирают"
+                }
+              },
+              "examples": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": {
+        "fr": "3e groupe",
+        "en": "3rd group",
+        "ru": "3ая группа"
+      },
+      "groups": [
+        {
+          "name": null,
+          "words": [
+            {
+              "title": {
+                "fr": "aller",
+                "en": "to go",
+                "ru": "идти, ехать"
+              },
+              "color": "LightCyan",
+              "word": {
+                "fr": {
+                  "je": "vais",
+                  "tu": "vas",
+                  "il/elle": "va",
+                  "nous": "allons",
+                  "vous": "allez",
+                  "ils/elles": "vont"
+                },
+                "en": {
+                  "I": "go",
+                  "you": "go",
+                  "he/she": "goes",
+                  "we": "go",
+                  "you​": "go",
+                  "they": "go"
+                },
+                "ru": {
+                  "я": "иду, еду",
+                  "ты": "идёшь, едешь",
+                  "он/она": "идёт, едет",
+                  "мы": "идём, едем",
+                  "вы": "идёте, едите",
+                  "они": "идут, едут"
+                }
+              },
+              "examples": []
+            },
+            {
+              "title": {
+                "fr": "faire",
+                "en": "to do",
+                "ru": "делать"
+              },
+              "color": "Bisque",
+              "word": {
+                "fr": {
+                  "je": "fais",
+                  "tu": "fais",
+                  "il/elle": "fait",
+                  "nous": "faisons",
+                  "vous": "faites",
+                  "ils/elles": "font"
+                },
+                "en": {
+                  "I": "do",
+                  "you": "do",
+                  "he/she": "does",
+                  "we": "do",
+                  "you​": "do",
+                  "they": "do"
+                },
+                "ru": {
+                  "я": "делаю",
+                  "ты": "делаешь",
+                  "он/она": "делает",
+                  "мы": "делаем",
+                  "вы": "делаете",
+                  "они": "делают"
+                }
+              },
+              "examples": []
+            },
+            {
+              "title": {
+                "fr": "prendre",
+                "en": "to take",
+                "ru": "брать"
+              },
+              "color": "Bisque",
+              "word": {
+                "fr": {
+                  "je": "prends",
+                  "tu": "prends",
+                  "il/elle": "prend",
+                  "nous": "prenons",
+                  "vous": "prenez",
+                  "ils/elles": "prennent"
+                },
+                "en": {
+                  "I": "take",
+                  "you": "take",
+                  "he/she": "takes",
+                  "we": "take",
+                  "you​": "take",
+                  "they": "take"
+                },
+                "ru": {
+                  "я": "беру",
+                  "ты": "берёшь",
+                  "он/она": "берёт",
+                  "мы": "берём",
+                  "вы": "берёте",
+                  "они": "берут"
+                }
+              },
+              "examples": []
+            },
+            {
+              "title": {
+                "fr": "venir",
+                "en": "to come",
+                "ru": "приходить"
+              },
+              "color": "LightCyan",
+              "word": {
+                "fr": {
+                  "je": "viens",
+                  "tu": "viens",
+                  "il/elle": "vient",
+                  "nous": "venons",
+                  "vous": "venez",
+                  "ils/elles": "viennent"
+                },
+                "en": {
+                  "I": "come",
+                  "you": "come",
+                  "he/she": "comes",
+                  "we": "come",
+                  "you​": "come",
+                  "they": "come"
+                },
+                "ru": {
+                  "я": "прихожу",
+                  "ты": "приходишь",
+                  "он/она": "приходит",
+                  "мы": "приходим",
+                  "вы": "приходите",
+                  "они": "приходят"
+                }
+              },
+              "examples": []
+            },
+            {
+              "title": {
+                "fr": "partir",
+                "en": "to leave",
+                "ru": "уходить"
+              },
+              "color": "LightCyan",
+              "word": {
+                "fr": {
+                  "je": "pars",
+                  "tu": "pars",
+                  "il/elle": "part",
+                  "nous": "partons",
+                  "vous": "partez",
+                  "ils/elles": "partent"
+                },
+                "en": {
+                  "I": "leave",
+                  "you": "leave",
+                  "he/she": "leaves",
+                  "we": "leave",
+                  "you​": "leave",
+                  "they": "leave"
+                },
+                "ru": {
+                  "я": "ухожу",
+                  "ты": "уходишь",
+                  "он/она": "уходит",
+                  "мы": "уходим",
+                  "вы": "уходите",
+                  "они": "уходят"
+                }
+              },
+              "examples": []
+            },
+            {
+              "title": {
+                "fr": "pouvoir",
+                "en": "can, to be able to",
+                "ru": "мочь"
+              },
+              "color": "LightPink",
+              "word": {
+                "fr": {
+                  "je": "peux",
+                  "tu": "peux",
+                  "il/elle": "peut",
+                  "nous": "pouvons",
+                  "vous": "pouvez",
+                  "ils/elles": "peuvent"
+                },
+                "en": {
+                  "I": "can",
+                  "you": "can",
+                  "he/she": "can",
+                  "we": "can",
+                  "you​": "can",
+                  "they": "can"
+                },
+                "ru": {
+                  "я": "могу",
+                  "ты": "можешь",
+                  "он/она": "может",
+                  "мы": "можем",
+                  "вы": "можете",
+                  "они": "могут"
+                }
+              },
+              "examples": []
+            },
+            {
+              "title": {
+                "fr": "vouloir",
+                "en": "want",
+                "ru": "хотеть"
+              },
+              "color": "LightPink",
+              "word": {
+                "fr": {
+                  "je": "veux",
+                  "tu": "veux",
+                  "il/elle": "veut",
+                  "nous": "voulons",
+                  "vous": "voulez",
+                  "ils/elles": "veulent"
+                },
+                "en": {
+                  "I": "want",
+                  "you": "want",
+                  "he/she": "wants",
+                  "we": "want",
+                  "you​": "want",
+                  "they": "want"
+                },
+                "ru": {
+                  "я": "хочу",
+                  "ты": "хочешь",
+                  "он/она": "хочет",
+                  "мы": "хотим",
+                  "вы": "хотите",
+                  "они": "хотят"
+                }
+              },
+              "examples": []
+            },
+            {
+              "title": {
+                "fr": "devoir",
+                "en": "must, to have to",
+                "ru": "быть должным"
+              },
+              "color": "LightPink",
+              "word": {
+                "fr": {
+                  "je": "dois",
+                  "tu": "dois",
+                  "il/elle": "doit",
+                  "nous": "devons",
+                  "vous": "devez",
+                  "ils/elles": "doivent"
+                },
+                "en": {
+                  "I": "must",
+                  "you": "must",
+                  "he/she": "must",
+                  "we": "must",
+                  "you​": "must",
+                  "they": "must"
+                },
+                "ru": {
+                  "я": "должен",
+                  "ты": "должен",
+                  "он/она": "должен",
+                  "мы": "должны",
+                  "вы": "должны",
+                  "они": "должны"
+                }
+              },
+              "examples": []
+            },
+            {
+              "title": {
+                "fr": "savoir",
+                "en": "to know, to find out, to learn",
+                "ru": "знать, узнать"
+              },
+              "color": "LightGreen",
+              "word": {
+                "fr": {
+                  "je": "sais",
+                  "tu": "sais",
+                  "il/elle": "sait",
+                  "nous": "savons",
+                  "vous": "savez",
+                  "ils/elles": "savent"
+                },
+                "en": {
+                  "I": "know",
+                  "you": "know",
+                  "he/she": "knows",
+                  "we": "know",
+                  "you​": "know",
+                  "they": "know"
+                },
+                "ru": {
+                  "я": "знаю",
+                  "ты": "знаешь",
+                  "он/она": "знает",
+                  "мы": "знаем",
+                  "вы": "знаете",
+                  "они": "знают"
+                }
+              },
+              "examples": []
+            },
+            {
+              "title": {
+                "fr": "connaître",
+                "en": "to know, to understand, to meet",
+                "ru": "знать, быть знакомым"
+              },
+              "color": "LightGreen",
+              "word": {
+                "fr": {
+                  "je": "connais",
+                  "tu": "connais",
+                  "il/elle": "connaît",
+                  "nous": "connaissons",
+                  "vous": "connaissez",
+                  "ils/elles": "connaissent"
+                },
+                "en": {
+                  "I": "know",
+                  "you": "know",
+                  "he/she": "knows",
+                  "we": "know",
+                  "you​": "know",
+                  "they": "know"
+                },
+                "ru": {
+                  "я": "знаю",
+                  "ты": "знаешь",
+                  "он/она": "знает",
+                  "мы": "знаем",
+                  "вы": "знаете",
+                  "они": "знают"
+                }
+              },
+              "examples": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

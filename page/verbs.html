@@ -1,2 +1,68 @@
-<section>
-</section>
+<div id="category-container">
+  <section class="clearfix d-none" id="category-template">
+    <h3><a class="text-decoration-none my-cat-index" href="#catX" data-toggle="collapse"><span id="category-name" data-toggle="tooltip" data-placement="right"></span><i class="fas fa-chevron-circle-up float-right"></i></a></h3>
+    <div class="collapse show my-cat-index" id="catX">
+      <div class="my-grid" id="card-container">
+        <div class="my-grid-group d-none" id="group-template">
+          <h4 class="text-secondary"><span id="group-name" data-toggle="tooltip" data-placement="right"></span></h4>
+        </div>
+        <div class="my-grid-item d-none" id="card-template">
+          <div class="card bg-light my-word-card">
+            <div class="card-header my-word-title" data-toggle="tooltip" data-html="true" data-placement="top"></div>
+            <div class="card-body">
+              <div class="card-text">
+                <table class="table table-sm table-borderless">
+                  <tr>
+                    <td class="my-cell0 my-kind align-baseline"></td>
+                    <td class="my-cell0 my-term align-baseline" data-toggle="tooltip" data-html="true" data-placement="bottom"></td>
+                    <td class="my-cell3 my-kind align-baseline"></td>
+                    <td class="my-cell3 my-term align-baseline" data-toggle="tooltip" data-html="true" data-placement="bottom"></td>
+                  </tr>
+                  <tr>
+                    <td class="my-cell1 my-kind align-baseline"></td>
+                    <td class="my-cell1 my-term align-baseline" data-toggle="tooltip" data-html="true" data-placement="bottom"></td>
+                    <td class="my-cell4 my-kind align-baseline"></td>
+                    <td class="my-cell4 my-term align-baseline" data-toggle="tooltip" data-html="true" data-placement="bottom"></td>
+                  </tr>
+                  <tr>
+                    <td class="my-cell2 my-kind align-baseline"></td>
+                    <td class="my-cell2 my-term align-baseline" data-toggle="tooltip" data-html="true" data-placement="bottom"></td>
+                    <td class="my-cell5 my-kind align-baseline"></td>
+                    <td class="my-cell5 my-term align-baseline" data-toggle="tooltip" data-html="true" data-placement="bottom"></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="showExamplesModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table class="table table-sm table-borderless">
+          <tbody id="example-container">
+            <tr class="d-none" id="example-template">
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
