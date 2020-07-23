@@ -2323,6 +2323,41 @@
                   "ru": "Сидячий образ жизни стал <strong>настоящей</strong> проблемой для здоровья."
                 }
               ]
+            },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "grave",
+                  "m pl": "graves",
+                  "f sl": "grave",
+                  "f pl": "graves"
+                },
+                "en": {
+                  "m sl": "serious, significant",
+                  "m pl": "serious, significant",
+                  "f sl": "serious, significant",
+                  "f pl": "serious, significant"
+                },
+                "ru": {
+                  "м ед": "серьёзный, значительный",
+                  "м мн": "серьёзные, значительные",
+                  "ж ед": "серьёзная, значительная",
+                  "ж мн": "серьёзные, значительные"
+                }
+              },
+              "title": "grave",
+              "examples": [
+                {
+                  "fr": "une faute <strong>grave</strong>",
+                  "en": "a <strong>serious</strong> error",
+                  "ru": "<strong>серьезная</strong> ошибка"
+                },
+                {
+                  "fr": "un <strong>grave</strong> danger",
+                  "en": "a <strong>significant</strong> threat",
+                  "ru": "<strong>значительная</strong> угроза"
+                }
+              ]
             }
           ]
         },
