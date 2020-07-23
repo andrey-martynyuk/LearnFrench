@@ -38,44 +38,33 @@
   </section>
 </div>
 
-<section class="clearfix">
-  <h3><a class="text-decoration-none" href="#comparison" data-toggle="collapse"><span id="comparison-name" data-toggle="tooltip" data-placement="right"></span> <i class="fas fa-chevron-circle-up float-right"></i></a></h3>
-  <div class="collapse show" id="comparison">
-    <div class="my-grid" id="comparison-container">
-      <div class="my-grid-group d-none" id="group-template">
-        <h4 class="text-secondary"><span id="group-name" data-toggle="tooltip" data-placement="right"></span></h4>
-      </div>
-      <div class="my-grid-item d-none" id="comparison-template">
-        <div class="card bg-light my-word-card">
-          <div class="card-body">
-            <div class="card-text">
-              <table class="table table-sm table-borderless text-right">
-                <tr>
-                  <td class="my-cell0"><span data-toggle="tooltip" data-html="true" data-placement="top" title=""></span></td>
-                </tr>
-                <tr>
-                  <td class="my-cell1"><span data-toggle="tooltip" data-html="true" data-placement="top" title=""></span></td>
-                </tr>
-                <tr>
-                  <td class="my-cell2"><span data-toggle="tooltip" data-html="true" data-placement="top" title=""></span></td>
-                </tr>
-                <tr>
-                  <td class="my-cell3"><span data-toggle="tooltip" data-html="true" data-placement="top" title=""></span></td>
-                </tr>
-                <tr>
-                  <td class="my-cell4"><span data-toggle="tooltip" data-html="true" data-placement="top" title=""></span></td>
-                </tr>
-                <tr>
-                  <td class="my-cell5"><span data-toggle="tooltip" data-html="true" data-placement="top" title=""></span></td>
-                </tr>
-              </table>
+<div id="section-container">
+  <section class="clearfix d-none" id="section-template">
+    <h3><a class="text-decoration-none my-section-index" href="#secX" data-toggle="collapse"><span id="section-name" data-toggle="tooltip" data-placement="right"></span> <i class="fas fa-chevron-circle-up float-right"></i></a></h3>
+    <div class="collapse show my-section-index" id="secX">
+      <div class="my-grid" id="card-container">
+        <div class="my-grid-group d-none" id="group-template">
+          <h4 class="text-secondary"><span id="group-name" data-toggle="tooltip" data-placement="right"></span></h4>
+        </div>
+        <div class="my-grid-item d-none" id="card-template">
+          <div class="card bg-light my-word-card">
+            <div class="card-body">
+              <div class="card-text">
+                <table class="table table-sm table-borderless text-right">
+                  <tbody id="row-container">
+                    <tr class="d-none" id="row-template">
+                      <td class="my-cell"><span data-toggle="tooltip" data-html="true" data-placement="top" title=""></span></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
+</div>
 
 <!-- Modal -->
 <div class="modal fade" id="showExamplesModal" tabindex="-1" role="dialog" aria-hidden="true">

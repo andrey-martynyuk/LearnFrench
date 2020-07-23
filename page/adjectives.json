@@ -2323,6 +2323,41 @@
                   "ru": "Сидячий образ жизни стал <strong>настоящей</strong> проблемой для здоровья."
                 }
               ]
+            },
+            {
+              "word": {
+                "fr": {
+                  "m sl": "grave",
+                  "m pl": "graves",
+                  "f sl": "grave",
+                  "f pl": "graves"
+                },
+                "en": {
+                  "m sl": "serious, significant",
+                  "m pl": "serious, significant",
+                  "f sl": "serious, significant",
+                  "f pl": "serious, significant"
+                },
+                "ru": {
+                  "м ед": "серьёзный, значительный",
+                  "м мн": "серьёзные, значительные",
+                  "ж ед": "серьёзная, значительная",
+                  "ж мн": "серьёзные, значительные"
+                }
+              },
+              "title": "grave",
+              "examples": [
+                {
+                  "fr": "une faute <strong>grave</strong>",
+                  "en": "a <strong>serious</strong> error",
+                  "ru": "<strong>серьезная</strong> ошибка"
+                },
+                {
+                  "fr": "un <strong>grave</strong> danger",
+                  "en": "a <strong>significant</strong> threat",
+                  "ru": "<strong>значительная</strong> угроза"
+                }
+              ]
             }
           ]
         },
@@ -3083,249 +3118,430 @@
       ]
     }
   ],
-  "comparison": {
-    "name": {
-      "fr": "Comparaison",
-      "en": "Comparison",
-      "ru": "Сравнение"
-    },
-    "groups": [
-      {
-        "name": {
-          "fr": "Les réguliers",
-          "en": "The regulars",
-          "ru": "Правильные"
-        },
-        "words": [
-          {
-            "word": {
-              "fr": {
-                "le positif": "grand",
-                "le comparatif >": "plus grand",
-                "le comparatif =": "aussi grand",
-                "le comparatif <": "moins grand",
-                "le superlatif >": "le plus grand",
-                "le superlatif <": "le moins grand"
-              },
-              "en": {
-                "positive": "big",
-                "comparative >": "bigger",
-                "comparative =": "as big",
-                "comparative <": "smaller",
-                "superlative >": "the biggest",
-                "superlative <": "the smallest"
-              },
-              "ru": {
-                "положительная": "большой",
-                "сравнительная >": "больше",
-                "сравнительная =": "столь же большой",
-                "сравнительная <": "меньше",
-                "превосходная >": "наибольший",
-                "превосходная <": "наименьший"
-              }
-            },
-            "title": "grand",
-            "examples": []
-          },
-          {
-            "word": {
-              "fr": {
-                "le positif": "belle",
-                "le comparatif >": "plus belle",
-                "le comparatif =": "aussi belle",
-                "le comparatif <": "moins belle",
-                "le superlatif >": "la plus belle",
-                "le superlatif <": "la moins belle"
-              },
-              "en": {
-                "positive": "beautiful",
-                "comparative >": "more beautiful",
-                "comparative =": "as beautiful",
-                "comparative <": "less beautiful",
-                "superlative >": "the most beautiful",
-                "superlative <": "the least beautiful"
-              },
-              "ru": {
-                "положительная": "красивая",
-                "сравнительная >": "более красивая",
-                "сравнительная =": "столь же красивая",
-                "сравнительная <": "менее красивая",
-                "превосходная >": "наиболее красивая",
-                "превосходная <": "наименее красивая"
-              }
-            },
-            "title": "belle",
-            "examples": []
-          },
-          {
-            "word": {
-              "fr": {
-                "le positif": "chers",
-                "le comparatif >": "plus chers",
-                "le comparatif =": "aussi chers",
-                "le comparatif <": "moins chers",
-                "le superlatif >": "les plus chers",
-                "le superlatif <": "les moins chers"
-              },
-              "en": {
-                "positive": "expensive",
-                "comparative >": "more expensive",
-                "comparative =": "as expensive",
-                "comparative <": "less expensive",
-                "superlative >": "the most expensive, the dearest",
-                "superlative <": "the least expensive, the cheapest"
-              },
-              "ru": {
-                "положительная": "дорогие",
-                "сравнительная >": "более дорогие",
-                "сравнительная =": "столь же дорогие",
-                "сравнительная <": "менее дорогие",
-                "превосходная >": "наиболее дорогие",
-                "превосходная <": "наименее дорогие"
-              }
-            },
-            "title": "chers",
-            "examples": []
-          }
-        ]
+  "sections": [
+    {
+      "name": {
+        "fr": "Comparaison",
+        "en": "Comparison",
+        "ru": "Сравнение"
       },
-      {
-        "name": {
-          "fr": "Les irréguliers",
-          "en": "The irregulars",
-          "ru": "Неправильные"
+      "groups": [
+        {
+          "name": {
+            "fr": "Les réguliers",
+            "en": "The regulars",
+            "ru": "Правильные"
+          },
+          "words": [
+            {
+              "word": {
+                "fr": {
+                  "le positif": "grand",
+                  "le comparatif >": "plus grand",
+                  "le comparatif =": "aussi grand",
+                  "le comparatif <": "moins grand",
+                  "le superlatif >": "le plus grand",
+                  "le superlatif <": "le moins grand"
+                },
+                "en": {
+                  "positive": "big",
+                  "comparative >": "bigger",
+                  "comparative =": "as big",
+                  "comparative <": "smaller",
+                  "superlative >": "the biggest",
+                  "superlative <": "the smallest"
+                },
+                "ru": {
+                  "положительная": "большой",
+                  "сравнительная >": "больше",
+                  "сравнительная =": "столь же большой",
+                  "сравнительная <": "меньше",
+                  "превосходная >": "наибольший",
+                  "превосходная <": "наименьший"
+                }
+              },
+              "title": "grand",
+              "examples": []
+            },
+            {
+              "word": {
+                "fr": {
+                  "le positif": "belle",
+                  "le comparatif >": "plus belle",
+                  "le comparatif =": "aussi belle",
+                  "le comparatif <": "moins belle",
+                  "le superlatif >": "la plus belle",
+                  "le superlatif <": "la moins belle"
+                },
+                "en": {
+                  "positive": "beautiful",
+                  "comparative >": "more beautiful",
+                  "comparative =": "as beautiful",
+                  "comparative <": "less beautiful",
+                  "superlative >": "the most beautiful",
+                  "superlative <": "the least beautiful"
+                },
+                "ru": {
+                  "положительная": "красивая",
+                  "сравнительная >": "более красивая",
+                  "сравнительная =": "столь же красивая",
+                  "сравнительная <": "менее красивая",
+                  "превосходная >": "наиболее красивая",
+                  "превосходная <": "наименее красивая"
+                }
+              },
+              "title": "belle",
+              "examples": []
+            },
+            {
+              "word": {
+                "fr": {
+                  "le positif": "chers",
+                  "le comparatif >": "plus chers",
+                  "le comparatif =": "aussi chers",
+                  "le comparatif <": "moins chers",
+                  "le superlatif >": "les plus chers",
+                  "le superlatif <": "les moins chers"
+                },
+                "en": {
+                  "positive": "expensive",
+                  "comparative >": "more expensive",
+                  "comparative =": "as expensive",
+                  "comparative <": "less expensive",
+                  "superlative >": "the most expensive, the dearest",
+                  "superlative <": "the least expensive, the cheapest"
+                },
+                "ru": {
+                  "положительная": "дорогие",
+                  "сравнительная >": "более дорогие",
+                  "сравнительная =": "столь же дорогие",
+                  "сравнительная <": "менее дорогие",
+                  "превосходная >": "наиболее дорогие",
+                  "превосходная <": "наименее дорогие"
+                }
+              },
+              "title": "chers",
+              "examples": []
+            }
+          ]
         },
-        "words": [
-          {
-            "word": {
-              "fr": {
-                "le positif": "bon",
-                "le comparatif >": "meilleur / plus bon",
-                "le comparatif =": "aussi bon",
-                "le comparatif <": "moins bon",
-                "le superlatif >": "le meilleur / le plus bon",
-                "le superlatif <": "le moins bon"
-              },
-              "en": {
-                "positive": "good",
-                "comparative >": "better",
-                "comparative =": "as good",
-                "comparative <": "less good",
-                "superlative >": "the best",
-                "superlative <": "the worst"
-              },
-              "ru": {
-                "положительная": "хороший",
-                "сравнительная >": "лучше",
-                "сравнительная =": "столь же хороший",
-                "сравнительная <": "хуже",
-                "превосходная >": "наилучший",
-                "превосходная <": "наихудший"
-              }
-            },
-            "title": "bon/meilleur",
-            "examples": [
-              {
-                "fr": "Paul est un <strong>bon</strong> élève. Pierre est <strong>meilleur que</strong> Paul. Il est <strong>le meilleur</strong> élève de la classe.",
-                "en": "Paul is a <strong>good</strong> student. Pierre is <strong>better than</strong> Paul. He's <strong>the best</strong> student in the class.",
-                "ru": "Поль <strong>хороший</strong> ученик. Пьер <strong>лучше чем</strong> Поль. Он <strong>лучший</strong> ученик в классе."
-              },
-              {
-                "fr": "Cette banane est <strong>bonne</strong> mais celle-ci est <strong>meilleure</strong>, c'est <strong>la meilleure</strong>.",
-                "en": "This banana is <strong>good</strong> but this one is <strong>better</strong>, it's <strong>the best</strong>.",
-                "ru": "Этот банан <strong>хорош</strong>, но этот <strong>лучше</strong>, он <strong>лучший</strong>."
-              },
-              {
-                "fr": "Ces gâteaux sont <strong>bons</strong>, mais ces gâteaux sont <strong>meilleurs</strong>, ce sont <strong>les meilleurs</strong> que j'aie jamais mangés.",
-                "en": "These cakes are <strong>good</strong>, but these cakes are <strong>better</strong>, they are <strong>the best</strong> I have ever eaten.",
-                "ru": "Эти торты <strong>хороши</strong>, но эти торты <strong>лучше</strong>, они <strong>лучшие</strong> из тех, что я когда-либо ел."
-              }
-            ]
+        {
+          "name": {
+            "fr": "Les irréguliers",
+            "en": "The irregulars",
+            "ru": "Неправильные"
           },
-          {
-            "word": {
-              "fr": {
-                "le positif": "mauvais",
-                "le comparatif >": "pire / plus mauvais",
-                "le comparatif =": "aussi mauvais",
-                "le comparatif <": "moins mauvais",
-                "le superlatif >": "le pire / le plus mauvais",
-                "le superlatif <": "le moins mauvais"
+          "words": [
+            {
+              "word": {
+                "fr": {
+                  "le positif": "bon",
+                  "le comparatif >": "meilleur / plus bon",
+                  "le comparatif =": "aussi bon",
+                  "le comparatif <": "moins bon",
+                  "le superlatif >": "le meilleur / le plus bon",
+                  "le superlatif <": "le moins bon"
+                },
+                "en": {
+                  "positive": "good",
+                  "comparative >": "better",
+                  "comparative =": "as good",
+                  "comparative <": "less good",
+                  "superlative >": "the best",
+                  "superlative <": "the worst"
+                },
+                "ru": {
+                  "положительная": "хороший",
+                  "сравнительная >": "лучше",
+                  "сравнительная =": "столь же хороший",
+                  "сравнительная <": "хуже",
+                  "превосходная >": "наилучший",
+                  "превосходная <": "наихудший"
+                }
               },
-              "en": {
-                "positive": "bad",
-                "comparative >": "worse",
-                "comparative =": "as bad",
-                "comparative <": "less bad",
-                "superlative >": "the worst",
-                "superlative <": "the least bad"
-              },
-              "ru": {
-                "положительная": "плохой",
-                "сравнительная >": "хуже",
-                "сравнительная =": "столь же плохой",
-                "сравнительная <": "менее плохой",
-                "превосходная >": "наихудший",
-                "превосходная <": "наименее плохой"
-              }
+              "title": "bon/meilleur",
+              "examples": [
+                {
+                  "fr": "Paul est un <strong>bon</strong> élève. Pierre est <strong>meilleur que</strong> Paul. Il est <strong>le meilleur</strong> élève de la classe.",
+                  "en": "Paul is a <strong>good</strong> student. Pierre is <strong>better than</strong> Paul. He's <strong>the best</strong> student in the class.",
+                  "ru": "Поль <strong>хороший</strong> ученик. Пьер <strong>лучше чем</strong> Поль. Он <strong>лучший</strong> ученик в классе."
+                },
+                {
+                  "fr": "Cette banane est <strong>bonne</strong> mais celle-ci est <strong>meilleure</strong>, c'est <strong>la meilleure</strong>.",
+                  "en": "This banana is <strong>good</strong> but this one is <strong>better</strong>, it's <strong>the best</strong>.",
+                  "ru": "Этот банан <strong>хорош</strong>, но этот <strong>лучше</strong>, он <strong>лучший</strong>."
+                },
+                {
+                  "fr": "Ces gâteaux sont <strong>bons</strong>, mais ces gâteaux sont <strong>meilleurs</strong>, ce sont <strong>les meilleurs</strong> que j'aie jamais mangés.",
+                  "en": "These cakes are <strong>good</strong>, but these cakes are <strong>better</strong>, they are <strong>the best</strong> I have ever eaten.",
+                  "ru": "Эти торты <strong>хороши</strong>, но эти торты <strong>лучше</strong>, они <strong>лучшие</strong> из тех, что я когда-либо ел."
+                }
+              ]
             },
-            "title": "mauvais/pire",
-            "examples": [
-              {
-                "fr": "Ma vie sociale cette année est <strong>pire</strong> quel’année dernière. (Abstrait)",
-                "en": "My social life this year is <strong>worse</strong> than last year. (Abstract)",
-                "ru": "Моя социальная жизнь в этом году <strong>хуже</strong>, чем в прошлом году. (Абстрактно)"
+            {
+              "word": {
+                "fr": {
+                  "le positif": "mauvais",
+                  "le comparatif >": "pire / plus mauvais",
+                  "le comparatif =": "aussi mauvais",
+                  "le comparatif <": "moins mauvais",
+                  "le superlatif >": "le pire / le plus mauvais",
+                  "le superlatif <": "le moins mauvais"
+                },
+                "en": {
+                  "positive": "bad",
+                  "comparative >": "worse",
+                  "comparative =": "as bad",
+                  "comparative <": "less bad",
+                  "superlative >": "the worst",
+                  "superlative <": "the least bad"
+                },
+                "ru": {
+                  "положительная": "плохой",
+                  "сравнительная >": "хуже",
+                  "сравнительная =": "столь же плохой",
+                  "сравнительная <": "менее плохой",
+                  "превосходная >": "наихудший",
+                  "превосходная <": "наименее плохой"
+                }
               },
-              {
-                "fr": "Le sel est <strong>plus mauvais</strong> quele sucre pour la santé. (Concret)",
-                "en": "Salt is <strong>worse</strong> for health than sugar. (Concrete)",
-                "ru": "Соль <strong>вреднее</strong> для здоровья, чем сахар. (Конкретно)"
-              }
-            ]
-          },
-          {
-            "word": {
-              "fr": {
-                "le positif": "petit",
-                "le comparatif >": "moindre / plus petit",
-                "le comparatif =": "aussi petit",
-                "le comparatif <": "moins petit",
-                "le superlatif >": "le moindre / le plus petit",
-                "le superlatif <": "le moins petit"
-              },
-              "en": {
-                "positive": "small",
-                "comparative >": "smaller",
-                "comparative =": "as small",
-                "comparative <": "less small",
-                "superlative >": "the smallest",
-                "superlative <": "the least small"
-              },
-              "ru": {
-                "положительная": "маленький",
-                "сравнительная >": "меньше",
-                "сравнительная =": "столь же маленький",
-                "сравнительная <": "менее маленький",
-                "превосходная >": "наименьший",
-                "превосходная <": "наименее маленький"
-              }
+              "title": "mauvais/pire",
+              "examples": [
+                {
+                  "fr": "Ma vie sociale cette année est <strong>pire</strong> quel’année dernière. (Abstrait)",
+                  "en": "My social life this year is <strong>worse</strong> than last year. (Abstract)",
+                  "ru": "Моя социальная жизнь в этом году <strong>хуже</strong>, чем в прошлом году. (Абстрактно)"
+                },
+                {
+                  "fr": "Le sel est <strong>plus mauvais</strong> quele sucre pour la santé. (Concret)",
+                  "en": "Salt is <strong>worse</strong> for health than sugar. (Concrete)",
+                  "ru": "Соль <strong>вреднее</strong> для здоровья, чем сахар. (Конкретно)"
+                }
+              ]
             },
-            "title": "petit/moindre",
-            "examples": [
-              {
-                "fr": "La gymnastique a une <strong>moindre</strong> importance en France qu'aux Etats-Unis. (Abstrait)",
-                "en": "Gymnastics has <strong>less</strong> importance in France than in the United States. (Abstract)",
-                "ru": "Гимнастика имеет <strong>меньшее</strong> значение во Франции, чем в Соединенных Штатах. (Абстрактно)"
+            {
+              "word": {
+                "fr": {
+                  "le positif": "petit",
+                  "le comparatif >": "moindre / plus petit",
+                  "le comparatif =": "aussi petit",
+                  "le comparatif <": "moins petit",
+                  "le superlatif >": "le moindre / le plus petit",
+                  "le superlatif <": "le moins petit"
+                },
+                "en": {
+                  "positive": "small",
+                  "comparative >": "smaller",
+                  "comparative =": "as small",
+                  "comparative <": "less small",
+                  "superlative >": "the smallest",
+                  "superlative <": "the least small"
+                },
+                "ru": {
+                  "положительная": "маленький",
+                  "сравнительная >": "меньше",
+                  "сравнительная =": "столь же маленький",
+                  "сравнительная <": "менее маленький",
+                  "превосходная >": "наименьший",
+                  "превосходная <": "наименее маленький"
+                }
               },
-              {
-                "fr": "Une Honda est <strong>plus petite</strong> qu’une Cadillac. (Concret)",
-                "en": "A Honda is <strong>smaller</strong> than a Cadillac. (Concrete)",
-                "ru": "Honda <strong>меньше</strong>, чем Cadillac. (Конкретно)"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+              "title": "petit/moindre",
+              "examples": [
+                {
+                  "fr": "La gymnastique a une <strong>moindre</strong> importance en France qu'aux Etats-Unis. (Abstrait)",
+                  "en": "Gymnastics has <strong>less</strong> importance in France than in the United States. (Abstract)",
+                  "ru": "Гимнастика имеет <strong>меньшее</strong> значение во Франции, чем в Соединенных Штатах. (Абстрактно)"
+                },
+                {
+                  "fr": "Une Honda est <strong>plus petite</strong> qu’une Cadillac. (Concret)",
+                  "en": "A Honda is <strong>smaller</strong> than a Cadillac. (Concrete)",
+                  "ru": "Honda <strong>меньше</strong>, чем Cadillac. (Конкретно)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": {
+        "fr": "Les adjectifs possessifs",
+        "en": "Possessive adjectives",
+        "ru": "Притяжательные прилагательные"
+      },
+      "groups": [
+        {
+          "words": [
+            {
+              "title": "Masculin",
+              "word": {
+                "fr": {
+                  "1": "mon père",
+                  "2": "ton père",
+                  "3": "son père",
+                  "4": "notre père",
+                  "5": "votre père",
+                  "6": "leur père"
+                },
+                "en": {
+                  "1": "my father",
+                  "2": "your father",
+                  "3": "his/her father",
+                  "4": "our father",
+                  "5​": "your father",
+                  "6": "thier father"
+                },
+                "ru": {
+                  "1": "мой отец",
+                  "2": "твой отец",
+                  "3": "его/её отец",
+                  "4": "наш отец",
+                  "5": "ваш отец",
+                  "6": "их отец"
+                }
+              },
+              "examples": []
+            },
+            {
+              "title": "Féminin",
+              "word": {
+                "fr": {
+                  "1": "ma mère",
+                  "2": "ta mère",
+                  "3": "sa mère",
+                  "4": "notre mère",
+                  "5": "votre mère",
+                  "6": "leur mère"
+                },
+                "en": {
+                  "1": "my mother",
+                  "2": "your mother",
+                  "3": "his/her mother",
+                  "4": "our mother",
+                  "5": "your​ mother",
+                  "6": "thier mother"
+                },
+                "ru": {
+                  "1": "моя мать",
+                  "2": "твоя мать",
+                  "3": "его/её мать",
+                  "4": "наша мать",
+                  "5": "ваша мать",
+                  "6": "их мать"
+                }
+              },
+              "examples": []
+            },
+            {
+              "title": "Pluriel",
+              "word": {
+                "fr": {
+                  "1": "mes parents",
+                  "2": "tes parents",
+                  "3": "ses parents",
+                  "4": "nos parents",
+                  "5": "vos parents",
+                  "6": "leurs parents"
+                },
+                "en": {
+                  "1": "my parents",
+                  "2": "your parents",
+                  "3": "his/her parents",
+                  "4": "our parents",
+                  "5": "your​ parents",
+                  "6": "thier parents"
+                },
+                "ru": {
+                  "1": "мои родители",
+                  "2": "твои родители",
+                  "3": "его/её родители",
+                  "4": "наши родители",
+                  "5": "ваши родители",
+                  "6": "их родители"
+                }
+              },
+              "examples": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": {
+        "fr": "Les adjectifs démonstratifs",
+        "en": "Demonstrative adjectives",
+        "ru": "Демонстративные прилагательные"
+      },
+      "groups": [
+        {
+          "words": [
+            {
+              "title": "Masculin",
+              "word": {
+                "fr": {
+                  "1": "ce livre",
+                  "2": "cet oiseau",
+                  "3": "cet homme"
+                },
+                "en": {
+                  "1": "this book",
+                  "2": "this bird",
+                  "3": "this man"
+                },
+                "ru": {
+                  "1": "эта книга",
+                  "2": "эта птица",
+                  "3": "этот мужчина"
+                }
+              },
+              "examples": []
+            },
+            {
+              "title": "Féminin",
+              "word": {
+                "fr": {
+                  "1": "cette robe",
+                  "2": "cette veste",
+                  "3": "cette année"
+                },
+                "en": {
+                  "1": "this dress",
+                  "2": "this jacket",
+                  "3": "this year"
+                },
+                "ru": {
+                  "1": "это платье",
+                  "2": "эта куртка",
+                  "3": "этот год"
+                }
+              },
+              "examples": []
+            },
+            {
+              "title": "Pluriel",
+              "word": {
+                "fr": {
+                  "1": "ces livres",
+                  "2": "ces oiseaux",
+                  "3": "ces vestes"
+                },
+                "en": {
+                  "1": "these books",
+                  "2": "these birds",
+                  "3": "these jackets"
+                },
+                "ru": {
+                  "1": "эти книги",
+                  "2": "эти птицы",
+                  "3": "эти куртки"
+                }
+              },
+              "examples": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
