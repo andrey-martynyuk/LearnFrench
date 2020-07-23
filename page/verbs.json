@@ -641,6 +641,76 @@
                 }
               },
               "examples": []
+            },
+            {
+              "title": {
+                "fr": "croire",
+                "en": "to believe",
+                "ru": "полагать"
+              },
+              "color": "MediumAquaMarine",
+              "word": {
+                "fr": {
+                  "je": "crois",
+                  "tu": "crois",
+                  "il/elle": "croit",
+                  "nous": "croyons",
+                  "vous": "croyez",
+                  "ils/elles": "croient"
+                },
+                "en": {
+                  "I": "believe",
+                  "you": "believe",
+                  "he/she": "believes",
+                  "we": "believe",
+                  "you​": "believe",
+                  "they": "believe"
+                },
+                "ru": {
+                  "я": "полагаю",
+                  "ты": "полагаешь",
+                  "он/она": "полагает",
+                  "мы": "полагаем",
+                  "вы": "полагаете",
+                  "они": "полагают"
+                }
+              },
+              "examples": []
+            },
+            {
+              "title": {
+                "fr": "voir",
+                "en": "to see",
+                "ru": "видеть"
+              },
+              "color": "MediumAquaMarine",
+              "word": {
+                "fr": {
+                  "je": "vois",
+                  "tu": "vois",
+                  "il/elle": "voit",
+                  "nous": "voyons",
+                  "vous": "voyez",
+                  "ils/elles": "voient"
+                },
+                "en": {
+                  "I": "see",
+                  "you": "see",
+                  "he/she": "sees",
+                  "we": "see",
+                  "you​": "see",
+                  "they": "see"
+                },
+                "ru": {
+                  "я": "вижу",
+                  "ты": "видишь",
+                  "он/она": "видит",
+                  "мы": "видим",
+                  "вы": "видите",
+                  "они": "видят"
+                }
+              },
+              "examples": []
             }
           ]
         }
