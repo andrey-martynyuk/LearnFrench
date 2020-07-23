@@ -115,55 +115,79 @@ function loadData(lang) {
       cat.appendTo(catContainer);
     });
 
-    // Load section name
-    let sectionName = $('#comparison-name');
-    sectionName.text(data.comparison.name.fr + ' ');
-    sectionName.attr('title', data.comparison.name[lang]);
-    sectionName.tooltip();
-
     // Clear container
-    const cardContainer = $('#comparison-container');
-    cardContainer.children().remove(':not(.d-none)');
+    const sectionContainer = $('#section-container');
+    sectionContainer.children().remove(':not(.d-none)');
 
-    // Gather templates
-    const cardTemplate = cardContainer.find('#comparison-template');
-    const groupTemplate = cardContainer.find('#group-template');
+    // Gather template
+    const sectionTemplate = sectionContainer.find('#section-template');
     
-    $.each(data.comparison.groups, (index, item) => {
-      let group = groupTemplate.clone(true);
-      if (item.name) {
-        let groupName = group.find('#group-name');
-        groupName.text(item.name.fr + ' ');
-        groupName.attr('title', item.name[lang]);
-        groupName.tooltip();
-      }
-      group.removeAttr('id');
-      group.removeClass('d-none');
-      group.appendTo(cardContainer);
-      
-      $.each(item.words, (index, item) => {        
-        let card = cardTemplate.clone(true);
-        const frValues = Object.values(item.word.fr);
-        const langValues = Object.values(item.word[lang]);
-        for (let i = 0; i < frValues.length; i++) {
-          let cell = card.find('td.my-cell' + i).children();
-          cell.html(`<span class='my-term'>${frValues[i]}</span>`);
-          cell.attr('title', `${langValues[i]}`);
-          cell.tooltip();
+    $.each(data.sections, (index, section) => {
+      let sec = sectionTemplate.clone(true);
+      sec.find('a.my-section-index').attr('href', '#sec' + index);
+      sec.find('div.my-section-index').attr('id', 'sec' + index);
+
+      let sectionName = sec.find('#section-name');
+      sectionName.text(section.name.fr + ' ');
+      sectionName.attr('title', section.name[lang]);
+      sectionName.tooltip();
+
+      const cardContainer = sec.find('#card-container');
+      const cardTemplate = cardContainer.find('#card-template');
+      const groupTemplate = cardContainer.find('#group-template');
+
+      $.each(section.groups, (index, item) => {
+        let group = groupTemplate.clone(true);
+        if (item.name) {
+          let groupName = group.find('#group-name');
+          groupName.text(item.name.fr + ' ');
+          groupName.attr('title', item.name[lang]);
+          groupName.tooltip();
         }
-        if (item.examples && item.examples.length > 0) {
-          const data = {
-            lang: lang,
-            title: item.title,
-            examples: item.examples
-          };
-          card.addClass('my-clickable');
-          card.click(data, showExamples);
+        else {
+          group.height(0); // TODO: for some reason empty div gets 8px of height.
         }
-        card.removeAttr('id');
-        card.removeClass('d-none');
-        card.appendTo(cardContainer);
+        group.removeAttr('id');
+        group.removeClass('d-none');
+        group.appendTo(cardContainer);
+        
+        $.each(item.words, (index, item) => {
+          let card = cardTemplate.clone(true);
+
+          const rowContainer = card.find('#row-container');
+          const rowTemplate = rowContainer.find('#row-template');
+
+          const frValues = Object.values(item.word.fr);
+          const langValues = Object.values(item.word[lang]);
+
+          for (let i = 0; i < frValues.length; i++) {
+            let row = rowTemplate.clone(true);
+            let cell = row.find('td.my-cell').children();
+            cell.html(`<span class='my-term'>${frValues[i]}</span>`);
+            cell.attr('title', `${langValues[i]}`);
+            cell.tooltip();
+            row.removeAttr('id');
+            row.removeClass('d-none');
+            row.appendTo(rowContainer);
+          }
+
+          if (item.examples && item.examples.length > 0) {
+            const data = {
+              lang: lang,
+              title: item.title,
+              examples: item.examples
+            };
+            card.addClass('my-clickable');
+            card.click(data, showExamples);
+          }
+          card.removeAttr('id');
+          card.removeClass('d-none');
+          card.appendTo(cardContainer);
+        });
       });
+      sec.removeAttr('id');
+      sec.removeClass('d-none');
+      sec.appendTo(sectionContainer);
     });
   });
 }
